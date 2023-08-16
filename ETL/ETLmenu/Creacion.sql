@@ -9,14 +9,21 @@ GO
 -- Crear una tabla temporal para operaciones BULK
 CREATE TABLE practica1ETL.dbo.TempDelivery (
     EntregaID int NOT NULL,
-    TimeID int NULL,
-    ClientID int NULL,
-    EmployID int NULL,
-    CityID int NULL,
-    ProductID int NULL,
-    TimeDeliverID int NULL,
-    CatalogID int NULL,
-    CostoEnvio real NULL
+	Dia	varchar(50)  NULL,
+	Mes	varchar(50)  NULL,
+	Anio int  NULL,
+	NombreCliente varchar(50)  NULL,
+	Direccion varchar(50)  NULL,
+	NombreEmpleadoEntrega varchar(50)  NULL,
+	PuestoEmpleadoEntrega	varchar(50)  NULL,
+	CiudadEntrega	varchar(50)  NULL,
+	NombreProducto	varchar(50)  NULL,
+	Descripción	varchar(50)  NULL,
+	Peso	varchar(50)  NULL,
+	TiempoEntrega int  NULL,
+	EstadoEntrega	varchar(50)  NULL,
+	CostoEnvio	varchar(50)  NULL,
+	PrecioProducto real  NULL,
 );
 
 
