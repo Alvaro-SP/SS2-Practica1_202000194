@@ -6,6 +6,20 @@ GO
 -- CREATE SCHEMA dbo;
 -- practica1ETL.dbo.[Catalog] definition
 
+-- Crear una tabla temporal para operaciones BULK
+CREATE TABLE practica1ETL.dbo.TempDelivery (
+    EntregaID int NOT NULL,
+    TimeID int NULL,
+    ClientID int NULL,
+    EmployID int NULL,
+    CityID int NULL,
+    ProductID int NULL,
+    TimeDeliverID int NULL,
+    CatalogID int NULL,
+    CostoEnvio real NULL
+);
+
+
 -- Drop table
 
 -- DROP TABLE practica1ETL.dbo.[Catalog];

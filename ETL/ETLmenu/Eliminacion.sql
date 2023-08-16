@@ -9,4 +9,5 @@ DROP TABLE practica1ETL.dbo.Employ;
 DROP TABLE practica1ETL.dbo.Product;
 DROP TABLE practica1ETL.dbo.[Time];
 DROP TABLE practica1ETL.dbo.TimeDeliver;
+DROP TABLE practica1ETL.dbo.sysdiagrams;
 DROP TABLE practica1ETL.dbo.Delivery;
