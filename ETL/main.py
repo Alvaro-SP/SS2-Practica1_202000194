@@ -8,53 +8,106 @@ import pyodbc
 
 import os
 import pandas as pd
-from numpy import nan
 import subprocess
+import logging
 
 # Parámetros de conexión
 server = 'KALI'
 database = 'practica1ETL'
-username = 'tu_usuario'
-password = 'tu_contraseña'
+username = 'alvaro'
+password = '24122001'
 
+# Configura log
+logger = logging.getLogger('PRACTICA 1 SEMINARIO DE SISTEMAS 2')
+logger.setLevel(logging.DEBUG)
+ch = logging.FileHandler('logs.log')
+ch.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+ch.setFormatter(formatter)
+logger.addHandler(ch)
+# Fin Configura log
 
 #* Conexion SQL SERVER
 try:
     #? Cadena de conexión
     connection_string = f"DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}"
-
+    logger.info("Iniciando nuestra aplicacion")
+    logger.info(" CONNECTION_STRING: ".center(80, "-"))
+    logger.info("Iniciando la realizacion de la conexion")
     connSQLS = pyodbc.connect(connection_string, autocommit=True)
+    logger.info("Conexion realizada exitosamente")
 
 except Exception as e:
     print("Error:", e)
 
-# * Criterios para limpiar archivo
-# * 1. EntregaID duplicados
-# * 2. Celdas vacías en años
-# * 3. Nombre Producto vacíos
-# * 4. Estado Entrega vacíos
-# * 5. Precio de Producto vacío
+def clean():
+    # * Criterios para limpiar archivo
+    # * 1. EntregaID duplicados
+    # * 2. Celdas vacías en años
+    # * 3. Nombre Producto vacíos
+    # * 4. Estado Entrega vacíos
+    # * 5. Precio de Producto vacío
+
+    file_csv = r"C:\Users\socop\Videos\REPOS TEMP\SS2-Practica1_202000194\ETL\EntregasUSAC-Delivery.csv"
+    # Cargar el archivo CSV en un DataFrame
+    df = pd.read_csv(file_csv, sep=';')
+
+    # Eliminar filas con EntregaID duplicados
+    df = df.drop_duplicates(["EntregaID"], keep="first")
+
+    # Eliminar filas con celdas vacías
+    df = df.dropna(subset=["Anio"])
+    df = df.dropna(subset=["NombreProducto"])
+    df = df.dropna(subset=["EstadoEntrega"])
+    df = df.dropna(subset=["PrecioProducto"])
+
+    # Guardar el DataFrame limpio en un nuevo archivo CSV
+    archivo_limpiado = r"C:\Users\socop\Videos\REPOS TEMP\SS2-Practica1_202000194\ETL\EntregasUSAC-Delivery-Limpiado.csv"
+    df.to_csv(archivo_limpiado, index=False)
+
+    print("Archivo limpiado guardado correctamente.")
 
 def menu():
+
+    print("╦ ╦╔═╗╔═╗╔═╗     ")
+    print("║ ║╚═╗╠═╣║──  DELIVERY  ")
+    print("╚═╝╚═╝╩ ╩╚═╝     ")
     while True:
+        print("2)  Crear modelo")
+        print("3)  Extraer información")
+        print("4)  Cargar información")
+        print("5)  Realizar consultas")
+        print("6)  Salir")
         opcion = input('Elija la operación que desea realizar: ')
         if opcion == '1':
+        #* 1)  Borrar modelo: Se ejecutará un script y se borrará cualquier tabla que 
+        #* utilice para el desarrollo de la práctica.
             print("Borrado de Informacion")
-            os.system("")
-            print("\n Borrado \n")
+            pathr = "..\\ETLmenu\\Eliminacion.sql"
+            os.system( f"sqlcmd -S KALI\\MSSQLSERVER01 -i {pathr}") 
+            print("\n >>>>>> Borrado \n")
         elif opcion == '2':
+        #* 2)  Crear modelo: Se ejecutará el script de creación de las tablas del modelo 
+        #* que el estudiante haya desarrollado.
+
             print("Crear Base de Dato")
             os.system("")
-            print("\n Creado \n")
+            print("\n >>>>>> Creado \n")
         elif opcion == '3':
+        #* 3)  Extraer información: Se solicitará la ruta de los archivos de carga, para
+        #* proceder a extraer la información de estos.
             print("Extraer Informacion")
             os.system("")
-            print("\n La información fue extraída \n")
+            print("\n >>>>>> La información fue extraída \n")
         elif opcion == '4':
+        #* 4)  Cargar información: Se ejecutará un script que transforme la información
+        #* de los archivos de entrada y luego se cargue al modelo desarrollado.
             print("Cargar Informacion")
             os.system("")
-            print("\n Información Cargada \n")
+            print("\n >>>>>> Información Cargada \n")
         elif opcion == '5':
+        #* 5)  Realizar consultas: Ejecutará un script con las consultas solicitadas y
+        #* guardará los resultados en un archivo de texto.
             print("Consulta 1")
             sqlcmd_command = ""
             result = subprocess.run(
@@ -119,11 +172,12 @@ def menu():
             crearArchivo(result.stdout.decode(), 'Consulta10.txt')
 
         else:
-            logger.info('Fin de aplicación')
             exit()
 
-
+def crearArchivo(texto, nombre_archivo):
+    with open(nombre_archivo, "w") as archivo:
+        archivo.write(texto)
 
 if __name__ == "__main__":
+    clean()
     menu()
-    logger.info('Aplicacion finalizada')

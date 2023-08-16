@@ -1,0 +1,518 @@
+EntregaID,Dia,Mes,Anio,NombreCliente,Direccion,NombreEmpleadoEntrega,PuestoEmpleadoEntrega,CiudadEntrega,NombreProducto,Descripción,Peso,TiempoEntrega,EstadoEntrega,CostoEnvio,PrecioProducto
+964,Martes,Mayo,2023.0,Lucía Reyes,Dirección 1,Empleado 1,Puesto 1,San Lucas Sacatepéquez, Paquete de libros, Paquete de libros,4.82,18,En Bodega,12.91,57.4
+814,Sábado,Noviembre,2023.0,Lorena Mendoza,Dirección 2,Empleado 2,Puesto 2,San Marcos, Envío de productos frágiles, Envío de productos frágiles,2.78,6,Entregado,16.31,39.27
+155,Jueves,Marzo,2023.0,Isabel López,Dirección 3,Empleado 3,Puesto 3,Patulul, Envío de artículos de belleza, Envío de artículos de belleza,7.67,46,Pendiente,38.34,54.11
+270,Sábado,Enero,2023.0,Roberto Ochoa,Dirección 5,Empleado 5,Puesto 5,Barberena, Envío de productos electrónicos, Envío de productos electrónicos,0.93,108,Recolectado,38.52,72.21
+786,Lunes,Febrero,2023.0,Andrés Flores,Dirección 7,Empleado 7,Puesto 7,Sumpango, Envío de productos de limpieza, Envío de productos de limpieza,4.56,22,Devolución,32.04,32.46
+762,Sábado,Mayo,2023.0,Patricia López,Dirección 8,Empleado 8,Puesto 8,Petapa, Paquete sensible al calor, Paquete sensible al calor,6.43,15,Devolución,42.6,51.93
+526,Miércoles,Septiembre,2023.0,Eduardo Vargas,Dirección 9,Empleado 9,Puesto 9,Barberena, Paquete de libros, Paquete de libros,1.63,49,En Bodega,14.21,36.93
+843,Sábado,Abril,2022.0,Joaquín Prieto,Dirección 10,Empleado 10,Puesto 10,Chimaltenango, Envío de juguetes, Envío de juguetes,9.74,4,Pendiente,9.07,80.02
+829,Sábado,Julio,2021.0,Víctor Acosta,Dirección 11,Empleado 11,Puesto 11,San Juan Sacatepéquez, Caja de ropa, Caja de ropa,5.37,27,Entregado,47.1,10.64
+779,Jueves,Marzo,2020.0,Juan Núñez,Dirección 12,Empleado 12,Puesto 12,Puerto Barrios, Caja de tecnología, Caja de tecnología,7.53,93,En Bodega,7.05,24.44
+751,Viernes,Abril,2023.0,Roberto Jiménez,Dirección 13,Empleado 13,Puesto 13,Villa Nueva, Caja con rastreo GPS, Caja con rastreo GPS,4.35,76,Recolectado,41.56,47.54
+653,Miércoles,Junio,2022.0,Óscar Bravo,Dirección 17,Empleado 17,Puesto 17,Ostuncalco, Paquete con seguro, Paquete con seguro,1.22,73,En Bodega,49.08,28.59
+17,Viernes,Marzo,2020.0,Gabriel Mendoza,Dirección 19,Empleado 19,Puesto 19,Huehuetenango, Caja de ropa, Caja de ropa,3.68,66,Recolectado,17.75,24.65
+457,Martes,Febrero,2023.0,Gabriel Gómez,Dirección 21,Empleado 21,Puesto 21,San Lucas Sacatepéquez, Caja grande, Caja grande,0.37,40,Devolución,16.02,84.82
+678,Sábado,Junio,2023.0,Luis Valverde,Dirección 25,Empleado 25,Puesto 25,Retalhuleu, Envío a zona remota, Envío a zona remota,1.65,111,Recolectado,29.96,30.02
+473,Miércoles,Diciembre,2021.0,Gabriel Valverde,Dirección 26,Empleado 26,Puesto 26,San José Pinula, Caja de tecnología, Caja de tecnología,7.96,114,Pendiente,11.51,60.81
+886,Sábado,Octubre,2022.0,Pedro Prieto,Dirección 28,Empleado 28,Puesto 28,Totonicapán, Envío marítimo, Envío marítimo,8.58,37,Devolución,44.59,24.78
+138,Martes,Junio,2023.0,Rosa Díaz,Dirección 29,Empleado 29,Puesto 29,Jacaltenango, Envío marítimo, Envío marítimo,9.58,14,Devolución,37.83,74.24
+409,Sábado,Marzo,2020.0,Gabriel García,Dirección 31,Empleado 31,Puesto 31,San Lucas Sacatepéquez, Envío internacional, Envío internacional,1.92,14,Devolución,24.66,25.35
+272,Jueves,Enero,2023.0,Francisco Hernández,Dirección 32,Empleado 32,Puesto 32,Mazatenango, Envío marítimo, Envío marítimo,4.85,39,Devolución,13.72,2.74
+237,Domingo,Septiembre,2022.0,Raquel Torres,Dirección 33,Empleado 33,Puesto 33,Mixco, Envío a sucursal, Envío a sucursal,8.1,26,Pendiente,7.0,94.0
+243,Domingo,Septiembre,2022.0,Alejandro López,Dirección 37,Empleado 37,Puesto 37,Cobán, Carga industrial, Carga industrial,2.56,55,Recolectado,29.79,90.32
+744,Martes,Junio,2022.0,Raquel Ríos,Dirección 39,Empleado 39,Puesto 39,Amatitlán, Caja de ropa, Caja de ropa,7.22,49,Entregado,18.14,17.42
+389,Jueves,Enero,2021.0,Marcela Martínez,Dirección 45,Empleado 45,Puesto 45,Retalhuleu, Paquete con seguimiento, Paquete con seguimiento,1.8,38,Devolución,13.28,1.94
+516,Lunes,Octubre,2020.0,Marcela Moreno,Dirección 46,Empleado 46,Puesto 46,Sanarate, Envío en fin de semana, Envío en fin de semana,3.7,63,Pendiente,46.22,79.89
+372,Domingo,Mayo,2022.0,Patricia Sánchez,Dirección 48,Empleado 48,Puesto 48,San Marcos, Envío de productos electrónicos, Envío de productos electrónicos,5.87,36,Recolectado,16.55,1.39
+114,Viernes,Octubre,2023.0,Rosa Valverde,Dirección 49,Empleado 49,Puesto 49,San Juan Sacatepéquez, Envío express, Envío express,3.54,33,Entregado,36.74,50.93
+244,Sábado,Junio,2020.0,Ricardo Espinoza,Dirección 52,Empleado 52,Puesto 52,Guatemala City, Paquete de accesorios, Paquete de accesorios,9.72,115,Entregado,17.15,19.33
+160,Viernes,Noviembre,2022.0,Francisco Valverde,Dirección 53,Empleado 53,Puesto 53,Guatemala City, Envío de equipos deportivos, Envío de equipos deportivos,3.09,48,Recolectado,41.34,22.14
+361,Miércoles,Febrero,2023.0,Catalina Sánchez,Dirección 54,Empleado 54,Puesto 54,San Lucas Sacatepéquez, Caja mediana, Caja mediana,3.94,78,Pendiente,35.2,75.14
+14,Lunes,Julio,2023.0,Sofía Prieto,Dirección 56,Empleado 56,Puesto 56,Patulul, Envío en fin de semana, Envío en fin de semana,7.91,87,Devolución,15.81,92.9
+536,Martes,Junio,2020.0,Marina Ruiz,Dirección 61,Empleado 61,Puesto 61,Huehuetenango, Caja de ropa, Caja de ropa,6.2,40,En Bodega,12.13,38.02
+492,Martes,Noviembre,2023.0,Alejandro Espinoza,Dirección 62,Empleado 62,Puesto 62,Nahualá, Envío internacional, Envío internacional,0.25,17,Devolución,37.97,98.52
+472,Martes,Marzo,2022.0,Víctor Cordero,Dirección 63,Empleado 63,Puesto 63,Nebaj, Caja pequeña, Caja pequeña,9.93,60,Recolectado,48.26,57.97
+287,Domingo,Febrero,2021.0,María Torres,Dirección 64,Empleado 64,Puesto 64,Santa Lucía Cotzumalguapa, Caja con rastreo GPS, Caja con rastreo GPS,3.63,1,En Bodega,14.08,52.84
+570,Miércoles,Diciembre,2021.0,Víctor Araya,Dirección 67,Empleado 67,Puesto 67,Huehuetenango, Caja de mercancía, Caja de mercancía,8.8,87,Devolución,16.43,93.7
+132,Martes,Abril,2022.0,Lucía Gómez,Dirección 70,Empleado 70,Puesto 70,Guatemala City, Envío de productos de limpieza, Envío de productos de limpieza,9.16,58,En Bodega,49.95,46.75
+925,Lunes,Mayo,2021.0,Alejandro García,Dirección 73,Empleado 73,Puesto 73,Coatepeque, Caja con rastreo GPS, Caja con rastreo GPS,5.42,89,Entregado,29.01,70.83
+515,Lunes,Octubre,2021.0,Marcela Fernández,Dirección 75,Empleado 75,Puesto 75,Jocotenango, Envío express, Envío express,6.49,63,Pendiente,45.47,7.58
+898,Viernes,Abril,2022.0,Sebastián Rodríguez,Dirección 76,Empleado 76,Puesto 76,Chimaltenango, Paquete de accesorios, Paquete de accesorios,6.89,34,Entregado,36.38,79.15
+869,Miércoles,Abril,2020.0,David Peralta,Dirección 77,Empleado 77,Puesto 77,Asunción Mita, Paquete grande, Paquete grande,1.68,103,Recolectado,24.71,35.78
+537,Martes,Septiembre,2023.0,Carmen Valverde,Dirección 80,Empleado 80,Puesto 80,San Pedro Sacatepéquez, Caja grande, Caja grande,4.74,115,Devolución,11.9,22.22
+643,Miércoles,Junio,2021.0,Alejandro Reyes,Dirección 81,Empleado 81,Puesto 81,Sanarate, Caja de herramientas, Caja de herramientas,7.78,29,Devolución,15.15,79.33
+574,Domingo,Abril,2022.0,Joaquín Delgado,Dirección 84,Empleado 84,Puesto 84,Asunción Mita, Caja de herramientas, Caja de herramientas,9.92,84,Entregado,25.01,69.89
+283,Miércoles,Noviembre,2023.0,Pedro Gómez,Dirección 90,Empleado 90,Puesto 90,Quetzaltenango, Caja de mercancía, Caja de mercancía,4.13,14,En Bodega,43.66,45.25
+78,Viernes,Octubre,2020.0,Marina Espinoza,Dirección 93,Empleado 93,Puesto 93,San José Pinula, Envío en fin de semana, Envío en fin de semana,4.8,103,Devolución,13.55,36.83
+53,Miércoles,Junio,2021.0,Laura Hernández,Dirección 95,Empleado 95,Puesto 95,La Gomera, Caja mediana, Caja mediana,8.12,4,Pendiente,43.63,86.92
+137,Sábado,Noviembre,2022.0,Lucía Hernández,Dirección 96,Empleado 96,Puesto 96,San Benito, Carga consolidada, Carga consolidada,7.62,73,Pendiente,35.86,22.77
+489,Jueves,Abril,2020.0,Pedro Díaz,Dirección 98,Empleado 98,Puesto 98,Jutiapa, Envío nocturno, Envío nocturno,0.35,72,En Bodega,40.33,10.72
+309,Sábado,Abril,2022.0,Javier Silva,Dirección 100,Empleado 100,Puesto 100,Sumpango, Envío urgente, Envío urgente,8.2,112,En Bodega,20.13,51.94
+800,Martes,Diciembre,2022.0,Javier Ortega,Dirección 101,Empleado 101,Puesto 101,Amatitlán, Envío de productos frágiles, Envío de productos frágiles,4.53,83,Devolución,40.86,54.38
+533,Viernes,Enero,2020.0,Marcela Rojas,Dirección 103,Empleado 103,Puesto 103,Coatepeque, Envío express, Envío express,4.16,97,Entregado,19.66,48.19
+923,Miércoles,Mayo,2022.0,José Espinoza,Dirección 104,Empleado 104,Puesto 104,Santa Lucía Cotzumalguapa, Envío de productos de limpieza, Envío de productos de limpieza,0.86,63,Recolectado,7.96,69.59
+872,Domingo,Octubre,2021.0,Adriana Paredes,Dirección 105,Empleado 105,Puesto 105,Guatemala City, Envío de artículos personales, Envío de artículos personales,0.39,42,Entregado,23.2,85.95
+799,Miércoles,Enero,2022.0,Lucía Ortega,Dirección 107,Empleado 107,Puesto 107,Mazatenango, Paquete con seguro, Paquete con seguro,0.4,19,Entregado,49.79,64.1
+949,Domingo,Junio,2023.0,Gabriel Araya,Dirección 110,Empleado 110,Puesto 110,Jalapa, Carga peligrosa, Carga peligrosa,6.47,17,Entregado,36.03,46.66
+767,Domingo,Junio,2023.0,Carolina Bravo,Dirección 119,Empleado 119,Puesto 119,Antigua Guatemala, Envío de productos de limpieza, Envío de productos de limpieza,4.73,119,Entregado,37.05,42.32
+431,Jueves,Septiembre,2021.0,Manuel García,Dirección 120,Empleado 120,Puesto 120,San Marcos, Envío marítimo, Envío marítimo,5.56,69,Devolución,5.77,87.38
+561,Miércoles,Noviembre,2021.0,Paula Cordero,Dirección 123,Empleado 123,Puesto 123,Villa Nueva, Envío a sucursal, Envío a sucursal,8.79,91,Pendiente,27.13,25.79
+46,Domingo,Marzo,2020.0,David Martínez,Dirección 128,Empleado 128,Puesto 128,San Benito, Paquete grande, Paquete grande,1.69,99,Pendiente,18.15,55.43
+295,Viernes,Junio,2023.0,Laura Moreno,Dirección 130,Empleado 130,Puesto 130,Petapa, Envío de muestras, Envío de muestras,6.91,81,Recolectado,49.88,25.86
+739,Viernes,Marzo,2020.0,Pedro Navarro,Dirección 132,Empleado 132,Puesto 132,Cobán, Caja de herramientas, Caja de herramientas,0.86,45,Devolución,18.8,64.92
+646,Viernes,Septiembre,2021.0,Carolina Acosta,Dirección 134,Empleado 134,Puesto 134,Patulul, Paquete mediano, Paquete mediano,0.53,99,En Bodega,34.2,11.64
+837,Domingo,Abril,2023.0,Rosa Acosta,Dirección 135,Empleado 135,Puesto 135,Barberena, Carga peligrosa, Carga peligrosa,3.58,80,Pendiente,41.96,89.68
+914,Miércoles,Enero,2022.0,Laura Morales,Dirección 136,Empleado 136,Puesto 136,Nebaj, Paquete grande, Paquete grande,1.16,95,Pendiente,33.39,42.57
+279,Domingo,Junio,2022.0,Roberto Espinoza,Dirección 137,Empleado 137,Puesto 137,Mixco, Paquete con seguimiento, Paquete con seguimiento,9.52,38,Recolectado,17.66,79.3
+190,Martes,Junio,2022.0,Gabriel Delgado,Dirección 138,Empleado 138,Puesto 138,Barberena, Paquete con seguimiento, Paquete con seguimiento,9.57,90,Entregado,19.41,81.44
+957,Sábado,Diciembre,2021.0,Francisco Silva,Dirección 143,Empleado 143,Puesto 143,Mazatenango, Carga consolidada, Carga consolidada,3.07,95,Devolución,44.12,89.16
+926,Martes,Julio,2020.0,Adriana Martínez,Dirección 147,Empleado 147,Puesto 147,La Gomera, Paquete con seguro, Paquete con seguro,5.65,41,En Bodega,13.58,75.4
+430,Lunes,Septiembre,2020.0,Miguel Duarte,Dirección 148,Empleado 148,Puesto 148,Barberena, Envío de material impreso, Envío de material impreso,9.39,56,Pendiente,40.01,88.05
+385,Martes,Enero,2021.0,Eduardo Gómez,Dirección 149,Empleado 149,Puesto 149,Villa Canales, Caja grande, Caja grande,5.09,100,Devolución,16.53,88.15
+223,Lunes,Diciembre,2020.0,Sofía Valverde,Dirección 150,Empleado 150,Puesto 150,Patulul, Bulto ligero, Bulto ligero,1.24,86,Pendiente,46.81,29.93
+782,Miércoles,Junio,2021.0,Sofía Delgado,Dirección 152,Empleado 152,Puesto 152,Puerto Barrios, Carga voluminosa, Carga voluminosa,1.16,102,Entregado,34.29,79.85
+713,Miércoles,Noviembre,2022.0,Carolina Quirós,Dirección 153,Empleado 153,Puesto 153,Santa Catarina Pinula, Caja de herramientas, Caja de herramientas,6.82,109,Pendiente,44.35,12.41
+791,Sábado,Enero,2023.0,Joaquín Jiménez,Dirección 154,Empleado 154,Puesto 154,San José Pinula, Paquete grande, Paquete grande,0.48,6,En Bodega,11.06,51.74
+268,Sábado,Agosto,2021.0,Rosa González,Dirección 156,Empleado 156,Puesto 156,Petapa, Envío frágil, Envío frágil,0.29,7,Devolución,39.23,69.83
+23,Viernes,Febrero,2023.0,Lorena Navarro,Dirección 159,Empleado 159,Puesto 159,San Pablo Jocopilas, Envío nocturno, Envío nocturno,3.77,97,Entregado,25.98,44.68
+749,Domingo,Mayo,2022.0,Adriana Delgado,Dirección 160,Empleado 160,Puesto 160,Chimaltenango, Bulto ligero, Bulto ligero,5.18,120,Pendiente,32.2,79.96
+60,Martes,Agosto,2023.0,Carmen González,Dirección 165,Empleado 165,Puesto 165,San Cristóbal Verapaz, Caja de regalo, Caja de regalo,7.98,12,Recolectado,39.73,70.17
+175,Jueves,Junio,2022.0,David Flores,Dirección 166,Empleado 166,Puesto 166,Villa Nueva, Envío de productos frágiles, Envío de productos frágiles,6.61,105,Recolectado,39.34,42.86
+862,Jueves,Diciembre,2020.0,Pedro Pérez,Dirección 167,Empleado 167,Puesto 167,Sumpango, Caja de muebles pequeños, Caja de muebles pequeños,9.67,52,En Bodega,23.59,20.36
+598,Martes,Octubre,2021.0,Valeria Villalobos,Dirección 168,Empleado 168,Puesto 168,Nebaj, Paquete mediano, Paquete mediano,8.37,40,Recolectado,10.03,53.01
+117,Sábado,Diciembre,2022.0,Roberto Mendoza,Dirección 169,Empleado 169,Puesto 169,Cobán, Envío aéreo, Envío aéreo,5.7,66,Recolectado,13.68,40.54
+890,Martes,Noviembre,2021.0,Andrés Ortega,Dirección 170,Empleado 170,Puesto 170,Coatepeque, Envío económico, Envío económico,0.89,92,Recolectado,31.63,4.13
+583,Viernes,Julio,2023.0,Luis Espinoza,Dirección 171,Empleado 171,Puesto 171,Nebaj, Envío de artículos personales, Envío de artículos personales,9.17,110,Devolución,13.81,4.95
+330,Viernes,Agosto,2022.0,Elena Bravo,Dirección 172,Empleado 172,Puesto 172,Antigua Guatemala, Envío de juguetes, Envío de juguetes,0.15,53,Devolución,5.82,50.59
+916,Jueves,Octubre,2020.0,Felipe Gómez,Dirección 173,Empleado 173,Puesto 173,Coatepeque, Carga industrial, Carga industrial,3.09,68,Entregado,34.25,15.2
+960,Viernes,Septiembre,2022.0,Juan Montes,Dirección 174,Empleado 174,Puesto 174,La Gomera, Envío de documentos, Envío de documentos,3.41,59,Recolectado,21.61,80.76
+329,Domingo,Abril,2021.0,Alejandro Paredes,Dirección 178,Empleado 178,Puesto 178,Sanarate, Envío de productos electrónicos, Envío de productos electrónicos,4.43,107,En Bodega,13.17,92.19
+305,Martes,Septiembre,2020.0,María Hernández,Dirección 182,Empleado 182,Puesto 182,Villa Nueva, Envío de artículos personales, Envío de artículos personales,4.96,4,Entregado,11.41,43.05
+594,Miércoles,Diciembre,2022.0,José Aguilar,Dirección 183,Empleado 183,Puesto 183,San Pablo Jocopilas, Caja de mercancía, Caja de mercancía,7.55,20,Recolectado,49.7,87.72
+550,Martes,Febrero,2020.0,María Pérez,Dirección 187,Empleado 187,Puesto 187,Villa Canales, Envío económico, Envío económico,4.06,89,En Bodega,24.35,91.41
+248,Jueves,Octubre,2020.0,Sebastián Zamora,Dirección 190,Empleado 190,Puesto 190,San Marcos, Caja pequeña, Caja pequeña,3.15,95,Recolectado,30.14,30.25
+307,Martes,Marzo,2021.0,Luis Ochoa,Dirección 192,Empleado 192,Puesto 192,Sumpango, Envío marítimo, Envío marítimo,3.41,86,En Bodega,27.01,41.87
+944,Jueves,Marzo,2022.0,Rosa Acosta,Dirección 193,Empleado 193,Puesto 193,Ostuncalco, Envío de productos electrónicos, Envío de productos electrónicos,8.31,6,Pendiente,28.3,47.27
+912,Domingo,Febrero,2023.0,Sebastián Acosta,Dirección 195,Empleado 195,Puesto 195,Malacatán, Envío aéreo, Envío aéreo,0.29,117,Pendiente,21.22,88.29
+529,Viernes,Enero,2021.0,Marcela Ortega,Dirección 196,Empleado 196,Puesto 196,San Cristóbal Verapaz, Caja pequeña, Caja pequeña,2.35,18,Recolectado,36.23,51.34
+413,Domingo,Diciembre,2023.0,Natalia Ramírez,Dirección 198,Empleado 198,Puesto 198,Patulul, Caja de mercancía, Caja de mercancía,5.93,44,Pendiente,8.72,39.79
+362,Viernes,Mayo,2020.0,Patricia Peralta,Dirección 199,Empleado 199,Puesto 199,Nebaj, Paquete pequeño, Paquete pequeño,9.98,73,En Bodega,39.18,74.96
+853,Miércoles,Diciembre,2020.0,Rosa Duarte,Dirección 202,Empleado 202,Puesto 202,Sumpango, Paquete de accesorios, Paquete de accesorios,7.17,60,En Bodega,25.02,30.41
+882,Sábado,Mayo,2021.0,Lucía Ochoa,Dirección 204,Empleado 204,Puesto 204,Jalapa, Envío de productos frágiles, Envío de productos frágiles,3.26,82,Recolectado,35.99,3.67
+707,Sábado,Noviembre,2020.0,Ricardo Ríos,Dirección 206,Empleado 206,Puesto 206,Villa Canales, Caja de ropa, Caja de ropa,8.44,25,Pendiente,12.61,83.5
+65,Domingo,Julio,2022.0,Francisco Ortega,Dirección 207,Empleado 207,Puesto 207,San Francisco El Alto, Envío express, Envío express,7.82,108,Pendiente,16.47,9.68
+134,Domingo,Marzo,2023.0,Daniel Ochoa,Dirección 208,Empleado 208,Puesto 208,San Francisco El Alto, Caja pequeña, Caja pequeña,9.67,92,Entregado,20.55,62.46
+93,Miércoles,Enero,2023.0,Miguel Sánchez,Dirección 212,Empleado 212,Puesto 212,Sanarate, Envío express, Envío express,1.95,95,Recolectado,48.99,6.66
+729,Sábado,Marzo,2022.0,Víctor Gómez,Dirección 213,Empleado 213,Puesto 213,Barberena, Envío frágil, Envío frágil,4.62,7,Pendiente,19.82,89.04
+651,Lunes,Diciembre,2021.0,Lorena Valverde,Dirección 217,Empleado 217,Puesto 217,Mazatenango, Caja de tecnología, Caja de tecnología,8.86,47,Pendiente,45.74,66.48
+254,Viernes,Mayo,2020.0,David Mendoza,Dirección 219,Empleado 219,Puesto 219,Retalhuleu, Paquete de productos químicos, Paquete de productos químicos,0.82,100,Recolectado,25.32,16.06
+995,Jueves,Mayo,2023.0,Gabriel Rojas,Dirección 220,Empleado 220,Puesto 220,Jutiapa, Envío de juguetes, Envío de juguetes,4.62,88,Entregado,38.46,57.42
+724,Martes,Junio,2020.0,Juan Ramírez,Dirección 223,Empleado 223,Puesto 223,Santa Cruz del Quiché, Caja pequeña, Caja pequeña,4.14,96,Entregado,48.24,70.78
+323,Domingo,Mayo,2021.0,Óscar Araya,Dirección 224,Empleado 224,Puesto 224,Chicacao, Paquete pequeño, Paquete pequeño,5.71,111,Pendiente,46.49,15.24
+84,Sábado,Marzo,2020.0,David Ríos,Dirección 226,Empleado 226,Puesto 226,Malacatán, Paquete de documentos legales, Paquete de documentos legales,1.78,119,Devolución,35.39,4.92
+443,Sábado,Septiembre,2021.0,Marina Prieto,Dirección 227,Empleado 227,Puesto 227,Mixco, Envío nocturno, Envío nocturno,0.18,67,Entregado,32.21,35.16
+262,Sábado,Junio,2023.0,Juan Rodríguez,Dirección 228,Empleado 228,Puesto 228,Mixco, Envío de productos frágiles, Envío de productos frágiles,8.5,60,En Bodega,24.8,17.39
+659,Sábado,Junio,2021.0,Catalina Vargas,Dirección 229,Empleado 229,Puesto 229,Guatemala City, Caja grande, Caja grande,1.05,118,Pendiente,27.66,3.87
+246,Miércoles,Agosto,2020.0,Rosa Montes,Dirección 234,Empleado 234,Puesto 234,San Pedro Ayampuc, Envío a zona remota, Envío a zona remota,3.41,12,Recolectado,20.79,73.47
+216,Sábado,Mayo,2020.0,Pedro Rodríguez,Dirección 235,Empleado 235,Puesto 235,Jacaltenango, Paquete de libros, Paquete de libros,1.24,44,Pendiente,45.93,20.64
+247,Jueves,Enero,2020.0,Ana Araya,Dirección 236,Empleado 236,Puesto 236,Asunción Mita, Caja de tecnología, Caja de tecnología,1.14,29,En Bodega,9.98,31.68
+395,Miércoles,Noviembre,2021.0,María Delgado,Dirección 237,Empleado 237,Puesto 237,Escuintla, Envío ecológico, Envío ecológico,0.97,43,En Bodega,44.29,26.42
+753,Sábado,Junio,2022.0,Catalina Montes,Dirección 239,Empleado 239,Puesto 239,San Pedro Ayampuc, Envío de productos frágiles, Envío de productos frágiles,5.38,7,Entregado,37.09,26.33
+200,Martes,Abril,2023.0,Miguel López,Dirección 241,Empleado 241,Puesto 241,Mazatenango, Envío de alimentos perecederos, Envío de alimentos perecederos,4.16,87,En Bodega,34.94,34.0
+763,Sábado,Marzo,2020.0,Andrés Espinoza,Dirección 242,Empleado 242,Puesto 242,Patzún, Paquete mediano, Paquete mediano,2.22,76,Recolectado,16.8,12.06
+354,Jueves,Noviembre,2022.0,Sofía Zamora,Dirección 243,Empleado 243,Puesto 243,Jacaltenango, Carga peligrosa, Carga peligrosa,6.67,14,En Bodega,39.43,25.57
+928,Miércoles,Septiembre,2021.0,María Jiménez,Dirección 247,Empleado 247,Puesto 247,San Juan Sacatepéquez, Envío de productos frágiles, Envío de productos frágiles,1.8,76,Recolectado,12.05,99.82
+611,Viernes,Septiembre,2020.0,Joaquín Duarte,Dirección 250,Empleado 250,Puesto 250,Mazatenango, Envío de equipos deportivos, Envío de equipos deportivos,2.5,62,Entregado,47.53,1.84
+464,Lunes,Julio,2023.0,Isabel Prieto,Dirección 252,Empleado 252,Puesto 252,Quetzaltenango, Envío urgente, Envío urgente,8.28,39,En Bodega,45.9,8.23
+73,Sábado,Julio,2021.0,Lorena Valverde,Dirección 254,Empleado 254,Puesto 254,San José Pinula, Caja de regalo, Caja de regalo,6.55,8,Pendiente,36.01,4.43
+66,Lunes,Diciembre,2023.0,Gabriel Acosta,Dirección 255,Empleado 255,Puesto 255,Jalapa, Envío de productos de limpieza, Envío de productos de limpieza,2.39,60,Pendiente,42.45,9.05
+726,Sábado,Diciembre,2023.0,Óscar Moreno,Dirección 257,Empleado 257,Puesto 257,Mazatenango, Carga voluminosa, Carga voluminosa,0.12,93,Entregado,13.1,51.63
+67,Miércoles,Agosto,2023.0,Ana Duarte,Dirección 258,Empleado 258,Puesto 258,Mazatenango, Sobre grande, Sobre grande,8.45,76,Recolectado,5.91,21.21
+352,Sábado,Junio,2021.0,Óscar Rojas,Dirección 259,Empleado 259,Puesto 259,Santa Lucía Cotzumalguapa, Envío de productos frágiles, Envío de productos frágiles,2.49,115,Recolectado,21.12,85.56
+578,Sábado,Marzo,2021.0,Marta Rojas,Dirección 260,Empleado 260,Puesto 260,Antigua Guatemala, Caja con rastreo GPS, Caja con rastreo GPS,5.37,82,En Bodega,36.86,44.15
+336,Sábado,Septiembre,2022.0,Ricardo Ríos,Dirección 263,Empleado 263,Puesto 263,Sumpango, Paquete de accesorios, Paquete de accesorios,9.62,30,Devolución,49.82,96.06
+712,Sábado,Abril,2023.0,Joaquín Ruiz,Dirección 266,Empleado 266,Puesto 266,Nebaj, Envío de juguetes, Envío de juguetes,4.47,66,Recolectado,49.23,67.21
+62,Sábado,Septiembre,2021.0,Ricardo Rojas,Dirección 268,Empleado 268,Puesto 268,Ciudad Vieja, Envío nocturno, Envío nocturno,0.9,108,Devolución,6.48,52.24
+189,Viernes,Febrero,2021.0,Lorena Rojas,Dirección 271,Empleado 271,Puesto 271,San Lucas Sacatepéquez, Caja pequeña, Caja pequeña,3.79,25,Entregado,42.76,99.7
+856,Martes,Noviembre,2023.0,Antonia Martínez,Dirección 272,Empleado 272,Puesto 272,Chicacao, Envío de material impreso, Envío de material impreso,5.78,28,En Bodega,45.29,47.85
+710,Miércoles,Junio,2023.0,David Aguilar,Dirección 276,Empleado 276,Puesto 276,Puerto Barrios, Carga voluminosa, Carga voluminosa,6.91,52,En Bodega,20.43,92.77
+513,Martes,Octubre,2020.0,Carlos Peralta,Dirección 277,Empleado 277,Puesto 277,San Benito, Caja con rastreo GPS, Caja con rastreo GPS,3.81,91,Recolectado,25.07,33.02
+662,Sábado,Marzo,2022.0,Miguel Rojas,Dirección 285,Empleado 285,Puesto 285,Jutiapa, Paquete pequeño, Paquete pequeño,6.73,19,En Bodega,44.52,57.77
+938,Domingo,Diciembre,2021.0,Ricardo Valverde,Dirección 289,Empleado 289,Puesto 289,Ostuncalco, Envío a domicilio, Envío a domicilio,8.18,98,Entregado,13.41,38.83
+793,Lunes,Noviembre,2023.0,Laura Zamora,Dirección 293,Empleado 293,Puesto 293,Antigua Guatemala, Envío de documentos, Envío de documentos,1.99,84,Devolución,34.74,80.37
+706,Lunes,Agosto,2022.0,Ricardo Sánchez,Dirección 294,Empleado 294,Puesto 294,Palín, Envío de equipos deportivos, Envío de equipos deportivos,5.69,57,Devolución,24.13,85.94
+816,Jueves,Julio,2023.0,Antonia Paredes,Dirección 295,Empleado 295,Puesto 295,Sanarate, Bulto pesado, Bulto pesado,1.87,41,Pendiente,14.2,5.8
+976,Miércoles,Septiembre,2021.0,David Morales,Dirección 298,Empleado 298,Puesto 298,Jocotenango, Envío de muestras, Envío de muestras,4.98,28,Recolectado,17.4,54.23
+986,Domingo,Noviembre,2021.0,Luis Torres,Dirección 300,Empleado 300,Puesto 300,Sumpango, Envío ecológico, Envío ecológico,1.79,47,Recolectado,33.26,73.31
+857,Lunes,Enero,2021.0,David Núñez,Dirección 301,Empleado 301,Puesto 301,Mazatenango, Envío de artículos personales, Envío de artículos personales,5.24,81,Recolectado,14.63,76.62
+491,Domingo,Mayo,2020.0,Valeria Rojas,Dirección 302,Empleado 302,Puesto 302,San Marcos, Caja de mercancía, Caja de mercancía,4.4,44,Devolución,33.48,90.41
+895,Miércoles,Febrero,2021.0,Natalia Reyes,Dirección 303,Empleado 303,Puesto 303,Asunción Mita, Paquete grande, Paquete grande,9.95,23,Pendiente,21.43,58.7
+509,Jueves,Julio,2021.0,Catalina Vargas,Dirección 304,Empleado 304,Puesto 304,Santa Catarina Pinula, Envío a zona remota, Envío a zona remota,7.61,47,Entregado,47.96,67.03
+113,Miércoles,Agosto,2022.0,Paula Espinoza,Dirección 305,Empleado 305,Puesto 305,Asunción Mita, Envío de material impreso, Envío de material impreso,0.74,75,Entregado,10.32,49.75
+342,Domingo,Agosto,2023.0,Roberto Moreno,Dirección 308,Empleado 308,Puesto 308,Jutiapa, Paquete discreto, Paquete discreto,1.56,42,Entregado,21.43,30.22
+54,Sábado,Junio,2020.0,Luis Duarte,Dirección 309,Empleado 309,Puesto 309,Palín, Envío marítimo, Envío marítimo,3.05,49,Devolución,8.68,88.01
+80,Miércoles,Julio,2020.0,Carolina Díaz,Dirección 313,Empleado 313,Puesto 313,Retalhuleu, Caja mediana, Caja mediana,6.06,100,Devolución,10.69,63.42
+696,Lunes,Marzo,2020.0,Carolina Duarte,Dirección 314,Empleado 314,Puesto 314,Sanarate, Envío ecológico, Envío ecológico,0.64,68,Pendiente,49.59,55.5
+942,Viernes,Febrero,2021.0,Sebastián Sánchez,Dirección 316,Empleado 316,Puesto 316,Chimaltenango, Caja de muebles pequeños, Caja de muebles pequeños,5.51,68,Pendiente,49.46,51.53
+539,Sábado,Julio,2021.0,Ricardo Martínez,Dirección 318,Empleado 318,Puesto 318,Amatitlán, Caja mediana, Caja mediana,7.54,117,En Bodega,25.75,30.7
+176,Miércoles,Septiembre,2022.0,Francisco Hernández,Dirección 320,Empleado 320,Puesto 320,Mazatenango, Envío a domicilio, Envío a domicilio,3.69,96,Entregado,49.05,90.23
+324,Lunes,Mayo,2023.0,Carolina Moreno,Dirección 321,Empleado 321,Puesto 321,Coatepeque, Carga voluminosa, Carga voluminosa,2.46,27,Recolectado,23.47,28.85
+708,Domingo,Febrero,2022.0,Rosa Torres,Dirección 323,Empleado 323,Puesto 323,Villa Canales, Paquete mediano, Paquete mediano,1.86,111,Entregado,5.14,41.5
+669,Lunes,Mayo,2022.0,Antonia Núñez,Dirección 324,Empleado 324,Puesto 324,Barberena, Envío de productos electrónicos, Envío de productos electrónicos,3.34,102,Devolución,11.67,25.46
+997,Viernes,Agosto,2021.0,Miguel Rojas,Dirección 325,Empleado 325,Puesto 325,San Benito, Caja de tecnología, Caja de tecnología,6.27,82,Devolución,18.21,26.13
+892,Domingo,Marzo,2023.0,Adriana Zamora,Dirección 326,Empleado 326,Puesto 326,Patzún, Envío de documentos, Envío de documentos,2.48,31,Entregado,16.96,95.7
+334,Miércoles,Enero,2020.0,Clara Vargas,Dirección 327,Empleado 327,Puesto 327,San Marcos, Envío a zona remota, Envío a zona remota,9.42,104,Pendiente,38.04,53.31
+603,Sábado,Marzo,2020.0,Daniel Sánchez,Dirección 329,Empleado 329,Puesto 329,Cantel, Envío de equipos deportivos, Envío de equipos deportivos,8.02,35,En Bodega,36.28,82.42
+281,Lunes,Diciembre,2021.0,Marcela Morales,Dirección 330,Empleado 330,Puesto 330,San Marcos, Envío de productos electrónicos, Envío de productos electrónicos,5.87,30,Entregado,29.04,95.14
+545,Lunes,Octubre,2022.0,Miguel Acosta,Dirección 334,Empleado 334,Puesto 334,Sanarate, Sobre pequeño, Sobre pequeño,7.55,81,Pendiente,19.28,60.4
+366,Sábado,Diciembre,2020.0,Javier Reyes,Dirección 341,Empleado 341,Puesto 341,Patzún, Caja de regalo, Caja de regalo,2.41,28,Devolución,11.42,15.02
+783,Domingo,Junio,2022.0,Ana Hernández,Dirección 342,Empleado 342,Puesto 342,Palín, Envío de artículos personales, Envío de artículos personales,7.88,57,Pendiente,16.1,52.82
+115,Jueves,Mayo,2022.0,Carolina Pérez,Dirección 346,Empleado 346,Puesto 346,Patzún, Envío ecológico, Envío ecológico,1.61,15,Entregado,8.94,33.88
+122,Viernes,Agosto,2022.0,Pedro Castro,Dirección 347,Empleado 347,Puesto 347,Chimaltenango, Caja de mercancía, Caja de mercancía,1.93,96,Pendiente,20.5,91.85
+462,Martes,Mayo,2021.0,Carmen Moreno,Dirección 353,Empleado 353,Puesto 353,San Benito, Caja de ropa, Caja de ropa,1.0,47,Pendiente,37.97,65.62
+387,Lunes,Marzo,2020.0,Clara Flores,Dirección 355,Empleado 355,Puesto 355,San Pedro Sacatepéquez, Bulto ligero, Bulto ligero,7.47,83,Recolectado,19.36,71.01
+635,Sábado,Julio,2020.0,Carmen Fernández,Dirección 357,Empleado 357,Puesto 357,San Juan Sacatepéquez, Envío express, Envío express,6.65,11,Pendiente,6.98,52.48
+192,Sábado,Abril,2022.0,Joaquín Mendoza,Dirección 358,Empleado 358,Puesto 358,Amatitlán, Caja de tecnología, Caja de tecnología,9.27,15,En Bodega,17.47,47.66
+718,Jueves,Marzo,2020.0,Isabel Gómez,Dirección 361,Empleado 361,Puesto 361,Quetzaltenango, Carga peligrosa, Carga peligrosa,1.35,113,Recolectado,7.06,72.71
+524,Martes,Diciembre,2023.0,Marcela Sánchez,Dirección 362,Empleado 362,Puesto 362,Jalapa, Envío de productos electrónicos, Envío de productos electrónicos,6.74,9,Devolución,39.2,67.31
+688,Jueves,Diciembre,2020.0,Lucía Morales,Dirección 363,Empleado 363,Puesto 363,San Lucas Sacatepéquez, Paquete grande, Paquete grande,7.7,15,En Bodega,33.89,13.37
+554,Martes,Agosto,2021.0,Luis López,Dirección 364,Empleado 364,Puesto 364,Jutiapa, Caja de regalo, Caja de regalo,2.64,120,En Bodega,37.35,95.1
+792,Martes,Marzo,2020.0,Sebastián Ochoa,Dirección 366,Empleado 366,Puesto 366,San Pablo Jocopilas, Paquete de libros, Paquete de libros,2.6,17,Devolución,9.63,4.47
+37,Martes,Abril,2023.0,Juan Aguilar,Dirección 368,Empleado 368,Puesto 368,Villa Nueva, Paquete grande, Paquete grande,7.47,17,Entregado,12.24,58.09
+384,Lunes,Octubre,2021.0,Gabriel Ramírez,Dirección 371,Empleado 371,Puesto 371,San Lucas Sacatepéquez, Paquete de libros, Paquete de libros,5.64,70,En Bodega,20.45,70.14
+149,Domingo,Septiembre,2023.0,Natalia Mendoza,Dirección 372,Empleado 372,Puesto 372,Guatemala City, Bulto ligero, Bulto ligero,5.95,111,En Bodega,23.28,46.51
+873,Martes,Mayo,2020.0,Óscar Acosta,Dirección 374,Empleado 374,Puesto 374,Palín, Envío de productos frágiles, Envío de productos frágiles,3.27,40,Entregado,25.52,54.93
+590,Lunes,Diciembre,2022.0,Valeria Valverde,Dirección 376,Empleado 376,Puesto 376,Huehuetenango, Envío de artículos de belleza, Envío de artículos de belleza,8.99,57,Devolución,47.07,11.77
+373,Jueves,Diciembre,2020.0,Elena Prieto,Dirección 378,Empleado 378,Puesto 378,Antigua Guatemala, Paquete de accesorios, Paquete de accesorios,3.32,85,Pendiente,25.47,71.92
+2,Domingo,Julio,2021.0,Felipe Hernández,Dirección 385,Empleado 385,Puesto 385,San Pablo Jocopilas, Envío de muestras, Envío de muestras,7.68,87,Pendiente,42.15,16.36
+528,Viernes,Marzo,2020.0,Natalia Díaz,Dirección 386,Empleado 386,Puesto 386,Barberena, Carga industrial, Carga industrial,5.16,26,Pendiente,13.57,41.92
+348,Sábado,Junio,2022.0,Ricardo Rodríguez,Dirección 388,Empleado 388,Puesto 388,La Gomera, Envío de artículos de belleza, Envío de artículos de belleza,6.09,115,Devolución,15.03,80.81
+359,Jueves,Mayo,2020.0,Carmen Flores,Dirección 389,Empleado 389,Puesto 389,San José Pinula, Envío de productos de limpieza, Envío de productos de limpieza,8.53,6,Entregado,19.46,43.95
+813,Viernes,Octubre,2021.0,Valeria Ramírez,Dirección 390,Empleado 390,Puesto 390,Jocotenango, Envío express, Envío express,6.65,72,Recolectado,42.07,96.07
+821,Sábado,Mayo,2020.0,Carmen Rojas,Dirección 394,Empleado 394,Puesto 394,Santa Catarina Pinula, Caja de herramientas, Caja de herramientas,8.15,88,Devolución,49.74,82.22
+991,Sábado,Febrero,2020.0,Natalia Morales,Dirección 399,Empleado 399,Puesto 399,Malacatán, Envío de productos electrónicos, Envío de productos electrónicos,5.2,2,Entregado,15.72,48.72
+125,Martes,Junio,2020.0,Eduardo Castro,Dirección 400,Empleado 400,Puesto 400,Malacatán, Paquete con seguimiento, Paquete con seguimiento,4.01,84,Pendiente,23.68,62.29
+140,Martes,Enero,2021.0,Marcela Montes,Dirección 401,Empleado 401,Puesto 401,San Marcos, Paquete de libros, Paquete de libros,2.08,85,Devolución,46.9,82.04
+239,Lunes,Julio,2023.0,Roberto Flores,Dirección 402,Empleado 402,Puesto 402,Jalapa, Caja grande, Caja grande,9.95,62,Devolución,49.62,73.54
+32,Domingo,Noviembre,2021.0,Andrés Torres,Dirección 407,Empleado 407,Puesto 407,Totonicapán, Envío de juguetes, Envío de juguetes,3.03,58,Recolectado,14.75,12.56
+36,Lunes,Mayo,2021.0,Javier Villalobos,Dirección 408,Empleado 408,Puesto 408,San Lucas Sacatepéquez, Caja de herramientas, Caja de herramientas,4.42,69,Entregado,5.66,20.35
+213,Domingo,Mayo,2022.0,Óscar Ramírez,Dirección 409,Empleado 409,Puesto 409,San José Pinula, Envío de productos frágiles, Envío de productos frágiles,0.45,103,Entregado,31.49,61.2
+682,Domingo,Octubre,2023.0,Natalia Reyes,Dirección 410,Empleado 410,Puesto 410,Palín, Paquete discreto, Paquete discreto,8.05,83,En Bodega,47.55,85.93
+347,Jueves,Febrero,2021.0,Rosa Gómez,Dirección 412,Empleado 412,Puesto 412,Patzún, Caja de muebles pequeños, Caja de muebles pequeños,2.86,63,Entregado,36.12,68.79
+288,Jueves,Junio,2020.0,Andrés Mendoza,Dirección 413,Empleado 413,Puesto 413,Chiquimula, Envío económico, Envío económico,8.09,37,Entregado,37.67,13.33
+9,Lunes,Diciembre,2020.0,Marina Ruiz,Dirección 415,Empleado 415,Puesto 415,Antigua Guatemala, Envío de material impreso, Envío de material impreso,1.28,70,Devolución,34.38,56.35
+167,Jueves,Diciembre,2021.0,Antonia Ríos,Dirección 416,Empleado 416,Puesto 416,Petapa, Bulto ligero, Bulto ligero,4.99,80,En Bodega,40.42,20.46
+606,Domingo,Octubre,2020.0,Javier López,Dirección 417,Empleado 417,Puesto 417,Cobán, Carga industrial, Carga industrial,4.7,75,Recolectado,28.91,50.79
+855,Lunes,Enero,2020.0,Manuel Silva,Dirección 418,Empleado 418,Puesto 418,Jalapa, Caja de tecnología, Caja de tecnología,9.31,98,En Bodega,38.99,85.7
+495,Lunes,Junio,2022.0,Paula Peralta,Dirección 423,Empleado 423,Puesto 423,Sololá, Envío de muestras, Envío de muestras,3.04,57,Pendiente,11.41,61.07
+351,Miércoles,Noviembre,2020.0,Manuel Espinoza,Dirección 425,Empleado 425,Puesto 425,Jocotenango, Paquete pequeño, Paquete pequeño,6.84,91,Devolución,8.03,35.82
+919,Sábado,Enero,2023.0,Manuel Prieto,Dirección 426,Empleado 426,Puesto 426,Villa Canales, Paquete mediano, Paquete mediano,6.57,29,Pendiente,8.27,13.66
+432,Lunes,Enero,2022.0,Francisco Delgado,Dirección 427,Empleado 427,Puesto 427,San Pedro Ayampuc, Paquete de accesorios, Paquete de accesorios,2.76,47,Recolectado,19.53,16.56
+506,Viernes,Julio,2020.0,Marcela Ruiz,Dirección 430,Empleado 430,Puesto 430,Patzún, Carga peligrosa, Carga peligrosa,8.86,106,Devolución,36.7,76.33
+980,Martes,Junio,2020.0,Antonia Núñez,Dirección 431,Empleado 431,Puesto 431,Chimaltenango, Envío express, Envío express,9.43,117,Devolución,30.85,75.96
+214,Domingo,Septiembre,2022.0,Marina Jiménez,Dirección 433,Empleado 433,Puesto 433,Palín, Envío de artículos personales, Envío de artículos personales,8.32,74,Pendiente,42.62,34.88
+24,Miércoles,Enero,2022.0,Francisco Jiménez,Dirección 440,Empleado 440,Puesto 440,Barberena, Envío de productos electrónicos, Envío de productos electrónicos,4.22,74,Recolectado,32.42,11.91
+463,Miércoles,Agosto,2021.0,Felipe Flores,Dirección 443,Empleado 443,Puesto 443,Escuintla, Envío de productos médicos, Envío de productos médicos,9.2,55,En Bodega,33.54,55.95
+888,Martes,Diciembre,2023.0,Óscar Montes,Dirección 445,Empleado 445,Puesto 445,San Francisco El Alto, Envío de muestras, Envío de muestras,7.15,90,Pendiente,41.2,20.64
+913,Jueves,Marzo,2022.0,María Díaz,Dirección 446,Empleado 446,Puesto 446,San José Pinula, Envío ecológico, Envío ecológico,3.32,83,Pendiente,19.87,82.07
+982,Jueves,Julio,2023.0,Adriana Rojas,Dirección 452,Empleado 452,Puesto 452,San Marcos, Carga peligrosa, Carga peligrosa,4.24,78,Pendiente,40.44,2.82
+297,Martes,Julio,2023.0,Juan Valverde,Dirección 453,Empleado 453,Puesto 453,Barberena, Caja de mercancía, Caja de mercancía,3.9,55,Pendiente,10.08,7.36
+498,Domingo,Septiembre,2023.0,Andrés Reyes,Dirección 456,Empleado 456,Puesto 456,San Juan Sacatepéquez, Envío de material impreso, Envío de material impreso,9.29,39,En Bodega,27.3,57.77
+623,Martes,Junio,2022.0,Rosa Espinoza,Dirección 460,Empleado 460,Puesto 460,Jalapa, Envío de artículos de belleza, Envío de artículos de belleza,5.06,112,Devolución,28.81,50.44
+805,Miércoles,Mayo,2023.0,Víctor Pérez,Dirección 461,Empleado 461,Puesto 461,Jalapa, Carga industrial, Carga industrial,2.43,62,Devolución,49.89,37.55
+249,Lunes,Junio,2020.0,David Aguilar,Dirección 462,Empleado 462,Puesto 462,Asunción Mita, Envío de material impreso, Envío de material impreso,6.13,61,Devolución,16.83,99.93
+435,Sábado,Febrero,2023.0,Patricia Silva,Dirección 464,Empleado 464,Puesto 464,Barberena, Envío de equipos deportivos, Envío de equipos deportivos,3.92,51,Devolución,38.71,33.96
+56,Domingo,Noviembre,2020.0,Marcela Mendoza,Dirección 466,Empleado 466,Puesto 466,Sololá, Paquete con seguro, Paquete con seguro,4.01,106,Recolectado,14.94,72.19
+439,Sábado,Junio,2022.0,Felipe Reyes,Dirección 467,Empleado 467,Puesto 467,San Francisco El Alto, Bulto pesado, Bulto pesado,0.68,74,Entregado,39.88,81.38
+424,Sábado,Abril,2020.0,Catalina Prieto,Dirección 468,Empleado 468,Puesto 468,Jalapa, Envío frágil, Envío frágil,3.79,94,Pendiente,8.25,19.04
+426,Viernes,Abril,2023.0,Valeria Jiménez,Dirección 469,Empleado 469,Puesto 469,Guatemala City, Envío frágil, Envío frágil,3.35,52,Devolución,5.42,20.07
+111,Sábado,Octubre,2020.0,Pedro Aguilar,Dirección 471,Empleado 471,Puesto 471,Cobán, Envío de equipos deportivos, Envío de equipos deportivos,6.32,81,Pendiente,23.29,84.17
+181,Martes,Julio,2021.0,Manuel Jiménez,Dirección 472,Empleado 472,Puesto 472,San Francisco El Alto, Envío a domicilio, Envío a domicilio,5.78,35,Entregado,35.58,37.92
+136,Miércoles,Febrero,2023.0,Javier Pérez,Dirección 474,Empleado 474,Puesto 474,San Cristóbal Verapaz, Caja de tecnología, Caja de tecnología,6.45,61,En Bodega,39.92,66.85
+802,Miércoles,Diciembre,2023.0,Manuel Rodríguez,Dirección 477,Empleado 477,Puesto 477,Puerto Barrios, Envío de documentos, Envío de documentos,2.48,30,Entregado,31.88,84.53
+559,Jueves,Octubre,2022.0,Valeria Montes,Dirección 479,Empleado 479,Puesto 479,Huehuetenango, Envío a zona remota, Envío a zona remota,5.25,98,Pendiente,25.35,68.09
+959,Viernes,Septiembre,2022.0,Alejandro Pérez,Dirección 480,Empleado 480,Puesto 480,San Francisco El Alto, Envío de artículos personales, Envío de artículos personales,2.61,72,En Bodega,42.1,21.75
+825,Jueves,Enero,2022.0,Javier Castro,Dirección 482,Empleado 482,Puesto 482,Jacaltenango, Paquete de productos químicos, Paquete de productos químicos,6.33,68,Entregado,8.52,85.87
+613,Miércoles,Noviembre,2021.0,Elena Espinoza,Dirección 492,Empleado 492,Puesto 492,Coatepeque, Envío de alimentos perecederos, Envío de alimentos perecederos,2.12,111,Devolución,8.17,56.26
+937,Viernes,Octubre,2020.0,Ricardo Navarro,Dirección 494,Empleado 494,Puesto 494,Escuintla, Paquete de documentos legales, Paquete de documentos legales,7.09,100,Pendiente,48.17,70.42
+406,Martes,Junio,2020.0,Eduardo Pérez,Dirección 495,Empleado 495,Puesto 495,Patulul, Envío de artículos de belleza, Envío de artículos de belleza,6.23,38,Devolución,34.93,23.9
+572,Domingo,Diciembre,2022.0,Roberto Pérez,Dirección 497,Empleado 497,Puesto 497,Villa Nueva, Envío de equipos deportivos, Envío de equipos deportivos,2.72,23,Devolución,22.9,17.11
+376,Lunes,Septiembre,2021.0,Laura Núñez,Dirección 498,Empleado 498,Puesto 498,Sanarate, Envío en fin de semana, Envío en fin de semana,9.87,40,Entregado,23.67,74.4
+527,Sábado,Abril,2021.0,Marina Ruiz,Dirección 504,Empleado 504,Puesto 504,Villa Canales, Envío de productos frágiles, Envío de productos frágiles,8.15,86,Recolectado,36.72,8.3
+22,Sábado,Julio,2022.0,Ricardo Paredes,Dirección 508,Empleado 508,Puesto 508,San Benito, Envío de material impreso, Envío de material impreso,2.68,19,Devolución,5.03,60.42
+832,Domingo,Diciembre,2023.0,Óscar González,Dirección 509,Empleado 509,Puesto 509,Totonicapán, Envío ecológico, Envío ecológico,3.14,67,Recolectado,48.21,70.61
+948,Lunes,Marzo,2020.0,Alejandro Ramírez,Dirección 512,Empleado 512,Puesto 512,Cobán, Envío a domicilio, Envío a domicilio,8.39,9,En Bodega,34.11,95.87
+141,Lunes,Septiembre,2022.0,Manuel Moreno,Dirección 513,Empleado 513,Puesto 513,San Benito, Envío urgente, Envío urgente,1.87,91,En Bodega,37.89,46.21
+144,Domingo,Septiembre,2021.0,Javier Moreno,Dirección 516,Empleado 516,Puesto 516,Jacaltenango, Caja de regalo, Caja de regalo,3.82,56,Recolectado,18.66,71.75
+627,Viernes,Marzo,2021.0,Pedro Delgado,Dirección 518,Empleado 518,Puesto 518,Jacaltenango, Carga peligrosa, Carga peligrosa,9.85,73,Entregado,43.16,25.5
+211,Miércoles,Febrero,2023.0,Óscar Aguilar,Dirección 524,Empleado 524,Puesto 524,Nebaj, Paquete mediano, Paquete mediano,8.52,71,Devolución,19.7,53.26
+993,Viernes,Mayo,2023.0,Roberto Delgado,Dirección 525,Empleado 525,Puesto 525,Retalhuleu, Envío de productos frágiles, Envío de productos frágiles,9.92,6,Pendiente,47.5,37.6
+6,Lunes,Septiembre,2022.0,Carlos Zamora,Dirección 537,Empleado 537,Puesto 537,Jocotenango, Envío a domicilio, Envío a domicilio,1.13,69,En Bodega,19.84,72.91
+151,Sábado,Octubre,2022.0,Eduardo Prieto,Dirección 538,Empleado 538,Puesto 538,Sanarate, Envío de productos de limpieza, Envío de productos de limpieza,9.98,116,Devolución,20.78,29.19
+26,Martes,Diciembre,2023.0,Roberto Acosta,Dirección 542,Empleado 542,Puesto 542,Santa Cruz del Quiché, Sobre pequeño, Sobre pequeño,8.79,102,Pendiente,27.67,65.65
+450,Miércoles,Mayo,2023.0,Sofía Delgado,Dirección 545,Empleado 545,Puesto 545,Patzún, Envío urgente, Envío urgente,9.53,53,Devolución,7.22,84.0
+197,Jueves,Junio,2020.0,Isabel Montes,Dirección 548,Empleado 548,Puesto 548,San José Pinula, Paquete de libros, Paquete de libros,4.32,94,Devolución,13.62,30.27
+990,Domingo,Mayo,2020.0,Lorena Martínez,Dirección 549,Empleado 549,Puesto 549,Huehuetenango, Envío a sucursal, Envío a sucursal,9.51,91,Recolectado,14.77,5.82
+685,Domingo,Noviembre,2021.0,Laura Sánchez,Dirección 550,Empleado 550,Puesto 550,Cantel, Envío de productos electrónicos, Envío de productos electrónicos,6.63,70,Devolución,22.95,98.34
+322,Lunes,Febrero,2023.0,Lorena Araya,Dirección 551,Empleado 551,Puesto 551,San Cristóbal Verapaz, Caja grande, Caja grande,0.66,71,Devolución,36.87,87.57
+448,Domingo,Mayo,2020.0,Francisco Ochoa,Dirección 552,Empleado 552,Puesto 552,Totonicapán, Envío ecológico, Envío ecológico,5.8,18,Entregado,22.68,53.71
+815,Viernes,Septiembre,2022.0,Marina Araya,Dirección 554,Empleado 554,Puesto 554,Amatitlán, Paquete certificado, Paquete certificado,9.86,55,Devolución,14.96,47.0
+553,Martes,Septiembre,2021.0,Raquel Araya,Dirección 556,Empleado 556,Puesto 556,San Pablo Jocopilas, Envío express, Envío express,1.94,18,Pendiente,26.2,94.78
+703,Viernes,Marzo,2020.0,Paula Zamora,Dirección 558,Empleado 558,Puesto 558,Palín, Caja de ropa, Caja de ropa,2.98,49,En Bodega,36.51,40.56
+490,Domingo,Junio,2020.0,Eduardo Delgado,Dirección 559,Empleado 559,Puesto 559,Chicacao, Paquete mediano, Paquete mediano,1.09,118,En Bodega,31.12,83.95
+379,Sábado,Marzo,2020.0,Raquel Ortega,Dirección 561,Empleado 561,Puesto 561,Jutiapa, Envío de productos médicos, Envío de productos médicos,4.35,15,Entregado,49.93,18.95
+196,Jueves,Septiembre,2023.0,Marta Delgado,Dirección 563,Empleado 563,Puesto 563,Patulul, Envío de productos de limpieza, Envío de productos de limpieza,6.05,14,Recolectado,24.16,55.72
+210,Martes,Febrero,2020.0,Manuel Morales,Dirección 564,Empleado 564,Puesto 564,Ciudad Vieja, Paquete sensible al calor, Paquete sensible al calor,3.85,30,Devolución,20.67,80.91
+625,Miércoles,Noviembre,2020.0,Daniel López,Dirección 572,Empleado 572,Puesto 572,Chiquimula, Caja de mercancía, Caja de mercancía,4.32,64,En Bodega,17.26,81.6
+665,Jueves,Marzo,2022.0,Alejandro Duarte,Dirección 579,Empleado 579,Puesto 579,Patzún, Paquete de productos químicos, Paquete de productos químicos,6.65,16,En Bodega,6.97,88.66
+43,Miércoles,Marzo,2022.0,Catalina Ruiz,Dirección 581,Empleado 581,Puesto 581,Retalhuleu, Caja de muebles pequeños, Caja de muebles pequeños,4.51,43,Devolución,42.17,88.17
+638,Domingo,Abril,2021.0,Elena Mendoza,Dirección 586,Empleado 586,Puesto 586,Jutiapa, Envío de productos de limpieza, Envío de productos de limpieza,9.2,60,Devolución,38.52,27.72
+548,Lunes,Junio,2022.0,Felipe Rodríguez,Dirección 590,Empleado 590,Puesto 590,Villa Nueva, Paquete grande, Paquete grande,3.39,25,En Bodega,16.44,56.06
+337,Miércoles,Junio,2022.0,Rosa Mendoza,Dirección 592,Empleado 592,Puesto 592,Sumpango, Caja con rastreo GPS, Caja con rastreo GPS,2.62,4,Entregado,28.86,52.96
+158,Lunes,Noviembre,2020.0,Paula Martínez,Dirección 593,Empleado 593,Puesto 593,Nahualá, Envío frágil, Envío frágil,9.96,42,Recolectado,38.6,92.62
+264,Viernes,Diciembre,2022.0,Raquel Navarro,Dirección 598,Empleado 598,Puesto 598,San Pedro Ayampuc, Carga consolidada, Carga consolidada,4.73,30,Devolución,12.48,37.51
+884,Martes,Mayo,2022.0,Natalia Mendoza,Dirección 602,Empleado 602,Puesto 602,Amatitlán, Envío internacional, Envío internacional,2.75,53,En Bodega,18.52,54.25
+680,Viernes,Septiembre,2023.0,Rosa Sánchez,Dirección 607,Empleado 607,Puesto 607,Sanarate, Envío de muestras, Envío de muestras,2.91,44,Recolectado,40.84,56.3
+368,Miércoles,Noviembre,2023.0,Daniel Torres,Dirección 610,Empleado 610,Puesto 610,Cantel, Envío de alimentos perecederos, Envío de alimentos perecederos,2.73,21,Pendiente,27.01,55.0
+265,Sábado,Septiembre,2022.0,Catalina Martínez,Dirección 611,Empleado 611,Puesto 611,Jacaltenango, Caja mediana, Caja mediana,7.02,114,Devolución,8.91,1.49
+360,Sábado,Abril,2022.0,Javier Núñez,Dirección 620,Empleado 620,Puesto 620,Santa Lucía Cotzumalguapa, Envío express, Envío express,2.92,34,Recolectado,26.46,97.17
+475,Sábado,Marzo,2021.0,Carolina Morales,Dirección 622,Empleado 622,Puesto 622,Antigua Guatemala, Envío urgente, Envío urgente,5.37,55,En Bodega,40.19,21.73
+25,Lunes,Enero,2021.0,Marta Vargas,Dirección 626,Empleado 626,Puesto 626,San Pedro Sacatepéquez, Envío económico, Envío económico,2.55,18,Pendiente,39.48,37.19
+521,Sábado,Agosto,2022.0,Gabriel Peralta,Dirección 627,Empleado 627,Puesto 627,Petapa, Caja mediana, Caja mediana,5.22,57,Entregado,44.55,43.27
+754,Viernes,Febrero,2021.0,Felipe López,Dirección 638,Empleado 638,Puesto 638,Sumpango, Envío de documentos, Envío de documentos,4.78,104,Devolución,37.36,22.77
+335,Sábado,Diciembre,2022.0,Daniel Ruiz,Dirección 639,Empleado 639,Puesto 639,Retalhuleu, Bulto ligero, Bulto ligero,5.39,35,En Bodega,32.29,47.23
+339,Lunes,Septiembre,2020.0,Paula Cordero,Dirección 640,Empleado 640,Puesto 640,San Juan Sacatepéquez, Paquete sensible al calor, Paquete sensible al calor,3.15,20,Entregado,37.77,15.51
+796,Lunes,Diciembre,2022.0,Manuel Duarte,Dirección 649,Empleado 649,Puesto 649,Ciudad Vieja, Envío de equipos deportivos, Envío de equipos deportivos,1.34,64,Devolución,12.95,43.4
+102,Jueves,Octubre,2020.0,Marta Sánchez,Dirección 650,Empleado 650,Puesto 650,San Pedro Sacatepéquez, Envío nocturno, Envío nocturno,7.93,61,Devolución,15.59,22.01
+808,Sábado,Abril,2020.0,Antonia Ochoa,Dirección 651,Empleado 651,Puesto 651,Totonicapán, Envío de productos electrónicos, Envío de productos electrónicos,3.73,15,Entregado,30.26,65.38
+945,Jueves,Julio,2021.0,Carolina Castro,Dirección 657,Empleado 657,Puesto 657,Mixco, Caja de regalo, Caja de regalo,9.5,95,En Bodega,6.61,29.67
+79,Domingo,Mayo,2020.0,Pedro Duarte,Dirección 658,Empleado 658,Puesto 658,Escuintla, Caja de tecnología, Caja de tecnología,5.15,46,Devolución,41.28,23.6
+906,Viernes,Febrero,2022.0,Luis Ruiz,Dirección 659,Empleado 659,Puesto 659,San Juan Sacatepéquez, Envío a domicilio, Envío a domicilio,9.4,35,En Bodega,49.91,21.14
+750,Jueves,Marzo,2023.0,Ana González,Dirección 660,Empleado 660,Puesto 660,Chiquimula, Paquete pequeño, Paquete pequeño,9.29,60,Recolectado,9.16,18.35
+560,Miércoles,Octubre,2021.0,Carlos Núñez,Dirección 662,Empleado 662,Puesto 662,Chiquimula, Envío marítimo, Envío marítimo,3.99,5,Devolución,22.82,20.82
+675,Viernes,Noviembre,2020.0,Andrés Pérez,Dirección 668,Empleado 668,Puesto 668,Chimaltenango, Envío urgente, Envío urgente,4.72,7,Devolución,16.84,52.77
+397,Lunes,Agosto,2021.0,Juan Sánchez,Dirección 670,Empleado 670,Puesto 670,San Juan Sacatepéquez, Carga peligrosa, Carga peligrosa,7.04,22,Pendiente,8.9,21.86
+589,Martes,Diciembre,2020.0,Alejandro Navarro,Dirección 674,Empleado 674,Puesto 674,Chicacao, Paquete de documentos legales, Paquete de documentos legales,0.54,46,Devolución,49.03,50.09
+380,Miércoles,Febrero,2020.0,Andrés Ramírez,Dirección 677,Empleado 677,Puesto 677,Nebaj, Envío frágil, Envío frágil,0.25,80,Pendiente,28.12,81.81
+698,Viernes,Abril,2020.0,Marina Morales,Dirección 679,Empleado 679,Puesto 679,Quetzaltenango, Envío de artículos personales, Envío de artículos personales,3.37,91,En Bodega,11.97,70.13
+891,Miércoles,Octubre,2022.0,Clara Reyes,Dirección 684,Empleado 684,Puesto 684,Sololá, Paquete con seguro, Paquete con seguro,3.28,5,Recolectado,31.35,77.99
+195,Jueves,Febrero,2022.0,Lorena Díaz,Dirección 685,Empleado 685,Puesto 685,Cantel, Envío económico, Envío económico,2.2,67,Pendiente,31.43,18.33
+676,Martes,Enero,2022.0,Pedro González,Dirección 687,Empleado 687,Puesto 687,Santa Catarina Pinula, Envío a domicilio, Envío a domicilio,8.63,71,Pendiente,42.71,38.95
+97,Jueves,Junio,2023.0,Miguel Castro,Dirección 688,Empleado 688,Puesto 688,Retalhuleu, Envío a zona remota, Envío a zona remota,1.24,104,Entregado,18.92,66.39
+451,Miércoles,Diciembre,2020.0,Laura Torres,Dirección 691,Empleado 691,Puesto 691,Huehuetenango, Envío de productos electrónicos, Envío de productos electrónicos,4.68,81,En Bodega,31.29,12.33
+252,Lunes,Febrero,2023.0,Miguel Ramírez,Dirección 692,Empleado 692,Puesto 692,San Benito, Paquete mediano, Paquete mediano,5.45,76,Devolución,31.93,64.08
+493,Viernes,Abril,2022.0,Sofía Mendoza,Dirección 696,Empleado 696,Puesto 696,San Lucas Sacatepéquez, Sobre pequeño, Sobre pequeño,2.51,80,Pendiente,14.27,59.7
+868,Jueves,Junio,2023.0,Marina Delgado,Dirección 701,Empleado 701,Puesto 701,Jalapa, Envío de juguetes, Envío de juguetes,6.48,84,Pendiente,40.99,71.44
+860,Martes,Octubre,2022.0,Luis Hernández,Dirección 702,Empleado 702,Puesto 702,Santa Catarina Pinula, Bulto pesado, Bulto pesado,5.39,66,Entregado,13.72,27.2
+831,Viernes,Julio,2021.0,Laura Ruiz,Dirección 703,Empleado 703,Puesto 703,Amatitlán, Envío de muestras, Envío de muestras,2.84,7,Recolectado,22.97,43.03
+743,Sábado,Octubre,2020.0,Isabel Zamora,Dirección 704,Empleado 704,Puesto 704,San Pablo Jocopilas, Bulto ligero, Bulto ligero,9.72,14,Recolectado,48.71,62.7
+119,Lunes,Febrero,2023.0,Alejandro Hernández,Dirección 717,Empleado 717,Puesto 717,Barberena, Bulto pesado, Bulto pesado,7.36,61,Pendiente,43.96,72.93
+39,Domingo,Febrero,2023.0,David Zamora,Dirección 718,Empleado 718,Puesto 718,Huehuetenango, Envío económico, Envío económico,0.32,114,Devolución,10.16,51.81
+803,Martes,Marzo,2022.0,Patricia Duarte,Dirección 720,Empleado 720,Puesto 720,San Pedro Sacatepéquez, Paquete de accesorios, Paquete de accesorios,5.92,38,En Bodega,13.54,66.66
+633,Jueves,Diciembre,2020.0,José Valverde,Dirección 723,Empleado 723,Puesto 723,Coatepeque, Envío de artículos de belleza, Envío de artículos de belleza,9.44,24,Pendiente,18.15,93.1
+484,Sábado,Enero,2022.0,Raquel Hernández,Dirección 724,Empleado 724,Puesto 724,Retalhuleu, Paquete discreto, Paquete discreto,5.54,84,Entregado,13.19,54.73
+936,Lunes,Enero,2023.0,Javier Navarro,Dirección 725,Empleado 725,Puesto 725,La Gomera, Envío de productos de limpieza, Envío de productos de limpieza,5.83,94,En Bodega,9.74,36.67
+576,Viernes,Agosto,2022.0,Lucía Acosta,Dirección 736,Empleado 736,Puesto 736,San Benito, Envío de material impreso, Envío de material impreso,2.88,47,Devolución,43.75,76.88
+326,Jueves,Enero,2020.0,Rosa Peralta,Dirección 739,Empleado 739,Puesto 739,San Cristóbal Verapaz, Envío de productos médicos, Envío de productos médicos,7.74,14,Entregado,31.84,43.16
+768,Domingo,Febrero,2021.0,David Delgado,Dirección 742,Empleado 742,Puesto 742,Antigua Guatemala, Envío de productos frágiles, Envío de productos frágiles,4.29,27,Entregado,10.27,11.61
+48,Domingo,Febrero,2023.0,Manuel Ramírez,Dirección 745,Empleado 745,Puesto 745,Jocotenango, Envío ecológico, Envío ecológico,9.05,2,Pendiente,12.57,33.07
+386,Sábado,Diciembre,2020.0,Sofía Núñez,Dirección 750,Empleado 750,Puesto 750,Malacatán, Paquete discreto, Paquete discreto,3.38,108,Recolectado,35.26,41.14
+607,Martes,Junio,2020.0,Marta Mendoza,Dirección 752,Empleado 752,Puesto 752,Retalhuleu, Envío marítimo, Envío marítimo,0.57,44,Pendiente,37.51,59.72
+711,Jueves,Febrero,2022.0,Andrés Rojas,Dirección 753,Empleado 753,Puesto 753,Puerto Barrios, Caja de regalo, Caja de regalo,1.55,63,Recolectado,43.74,29.49
+482,Martes,Octubre,2022.0,Felipe Jiménez,Dirección 763,Empleado 763,Puesto 763,Patzún, Envío de equipos deportivos, Envío de equipos deportivos,4.84,110,Devolución,37.12,27.46
+930,Viernes,Octubre,2023.0,Natalia Núñez,Dirección 764,Empleado 764,Puesto 764,Asunción Mita, Caja pequeña, Caja pequeña,5.79,89,En Bodega,9.81,9.76
+522,Domingo,Mayo,2023.0,Luis Moreno,Dirección 767,Empleado 767,Puesto 767,Villa Canales, Envío marítimo, Envío marítimo,5.53,29,Recolectado,27.75,66.86
+717,Domingo,Marzo,2020.0,Óscar Rojas,Dirección 775,Empleado 775,Puesto 775,Villa Canales, Envío de productos frágiles, Envío de productos frágiles,2.54,1,Entregado,5.33,83.13
+276,Sábado,Mayo,2020.0,José Ríos,Dirección 780,Empleado 780,Puesto 780,Cobán, Envío de productos de limpieza, Envío de productos de limpieza,5.22,4,En Bodega,32.19,12.54
+170,Viernes,Septiembre,2021.0,Elena Duarte,Dirección 784,Empleado 784,Puesto 784,Amatitlán, Paquete de accesorios, Paquete de accesorios,1.85,71,Entregado,22.1,73.18
+889,Sábado,Agosto,2023.0,Natalia Jiménez,Dirección 785,Empleado 785,Puesto 785,Sumpango, Envío a domicilio, Envío a domicilio,2.6,17,Pendiente,39.39,75.99
+705,Viernes,Febrero,2022.0,Antonia Castro,Dirección 786,Empleado 786,Puesto 786,Jocotenango, Paquete de productos químicos, Paquete de productos químicos,2.8,73,Devolución,39.33,53.73
+204,Lunes,Octubre,2020.0,Daniel Rojas,Dirección 787,Empleado 787,Puesto 787,Asunción Mita, Envío de documentos, Envío de documentos,3.75,59,Entregado,17.11,17.67
+274,Lunes,Noviembre,2020.0,Andrés Rodríguez,Dirección 790,Empleado 790,Puesto 790,Cobán, Paquete pequeño, Paquete pequeño,7.96,17,Entregado,17.44,80.24
+310,Domingo,Junio,2023.0,Pedro Ochoa,Dirección 795,Empleado 795,Puesto 795,San Lucas Sacatepéquez, Envío en fin de semana, Envío en fin de semana,9.84,54,En Bodega,19.05,9.83
+325,Miércoles,Mayo,2020.0,Eduardo Martínez,Dirección 796,Empleado 796,Puesto 796,Patzún, Paquete de accesorios, Paquete de accesorios,6.58,1,Recolectado,39.28,46.83
+369,Jueves,Septiembre,2021.0,Víctor Pérez,Dirección 797,Empleado 797,Puesto 797,Ciudad Vieja, Envío de alimentos perecederos, Envío de alimentos perecederos,4.05,76,Pendiente,10.51,72.91
+345,Domingo,Febrero,2022.0,Francisco Flores,Dirección 799,Empleado 799,Puesto 799,Petapa, Caja grande, Caja grande,8.43,92,En Bodega,49.7,57.67
+96,Lunes,Febrero,2023.0,Felipe López,Dirección 800,Empleado 800,Puesto 800,Villa Nueva, Envío de productos frágiles, Envío de productos frágiles,9.68,43,En Bodega,47.21,22.38
+893,Miércoles,Diciembre,2021.0,Juan Ramírez,Dirección 809,Empleado 809,Puesto 809,Chicacao, Caja de mercancía, Caja de mercancía,0.68,3,Recolectado,7.03,12.99
+103,Domingo,Abril,2021.0,Marina Silva,Dirección 810,Empleado 810,Puesto 810,San José Pinula, Caja grande, Caja grande,0.45,52,Pendiente,7.32,19.67
+185,Viernes,Noviembre,2020.0,Miguel López,Dirección 812,Empleado 812,Puesto 812,San Francisco El Alto, Envío de artículos personales, Envío de artículos personales,8.69,50,En Bodega,42.88,45.32
+519,Lunes,Febrero,2023.0,Ana Ramírez,Dirección 813,Empleado 813,Puesto 813,San Juan Sacatepéquez, Envío de documentos, Envío de documentos,6.97,1,Entregado,35.01,6.56
+318,Martes,Diciembre,2022.0,Paula Peralta,Dirección 818,Empleado 818,Puesto 818,Sumpango, Paquete de documentos legales, Paquete de documentos legales,9.45,89,Devolución,26.55,93.99
+82,Domingo,Abril,2023.0,Antonia López,Dirección 822,Empleado 822,Puesto 822,San Marcos, Carga voluminosa, Carga voluminosa,9.94,55,Pendiente,42.67,77.24
+840,Lunes,Diciembre,2021.0,Alejandro Acosta,Dirección 824,Empleado 824,Puesto 824,Cobán, Envío de documentos, Envío de documentos,8.63,7,Entregado,23.96,46.22
+434,Lunes,Febrero,2022.0,Joaquín Espinoza,Dirección 829,Empleado 829,Puesto 829,Jacaltenango, Caja de regalo, Caja de regalo,1.34,93,Pendiente,10.94,60.24
+604,Viernes,Febrero,2020.0,Adriana Silva,Dirección 830,Empleado 830,Puesto 830,Palín, Caja con rastreo GPS, Caja con rastreo GPS,0.93,27,En Bodega,27.23,44.66
+975,Lunes,Septiembre,2020.0,Eduardo Castro,Dirección 832,Empleado 832,Puesto 832,Nebaj, Sobre grande, Sobre grande,0.47,80,Pendiente,29.9,87.27
+614,Viernes,Septiembre,2022.0,Antonia Paredes,Dirección 834,Empleado 834,Puesto 834,San Pedro Sacatepéquez, Envío de productos de limpieza, Envío de productos de limpieza,3.98,5,Entregado,6.22,95.56
+585,Miércoles,Enero,2020.0,Manuel González,Dirección 840,Empleado 840,Puesto 840,Malacatán, Caja pequeña, Caja pequeña,4.97,119,Entregado,41.84,22.75
+423,Martes,Julio,2020.0,Patricia Aguilar,Dirección 847,Empleado 847,Puesto 847,San Marcos, Carga consolidada, Carga consolidada,3.88,105,Entregado,39.03,7.35
+404,Martes,Diciembre,2023.0,Lucía Reyes,Dirección 848,Empleado 848,Puesto 848,Santa Cruz del Quiché, Paquete pequeño, Paquete pequeño,2.38,23,Entregado,10.65,98.93
+663,Miércoles,Septiembre,2022.0,Carlos Ramírez,Dirección 849,Empleado 849,Puesto 849,Santa Cruz del Quiché, Envío express, Envío express,3.25,59,Entregado,18.81,4.41
+183,Lunes,Abril,2023.0,Sofía Pérez,Dirección 852,Empleado 852,Puesto 852,Jocotenango, Bulto pesado, Bulto pesado,7.37,109,Pendiente,33.35,26.51
+86,Viernes,Agosto,2021.0,Alejandro Zamora,Dirección 861,Empleado 861,Puesto 861,San Lucas Sacatepéquez, Carga industrial, Carga industrial,2.23,9,Devolución,10.43,51.48
+182,Jueves,Mayo,2023.0,Adriana Ortega,Dirección 878,Empleado 878,Puesto 878,Petapa, Envío aéreo, Envío aéreo,0.84,108,Pendiente,43.6,29.54
+907,Lunes,Diciembre,2023.0,Luis Espinoza,Dirección 887,Empleado 887,Puesto 887,San José Pinula, Caja grande, Caja grande,5.54,36,En Bodega,17.94,72.53
+15,Miércoles,Junio,2023.0,Joaquín Rodríguez,Dirección 888,Empleado 888,Puesto 888,Mixco, Envío de material impreso, Envío de material impreso,4.29,69,Recolectado,37.08,17.44
+150,Miércoles,Marzo,2022.0,Antonia Silva,Dirección 891,Empleado 891,Puesto 891,Escuintla, Envío express, Envío express,7.13,73,En Bodega,49.45,38.29
+146,Jueves,Abril,2020.0,Elena Rojas,Dirección 900,Empleado 900,Puesto 900,La Gomera, Envío de productos de limpieza, Envío de productos de limpieza,2.88,54,En Bodega,39.62,31.95
+723,Miércoles,Marzo,2022.0,David Paredes,Dirección 902,Empleado 902,Puesto 902,Cantel, Envío frágil, Envío frágil,5.31,16,Entregado,22.09,39.46
+978,Viernes,Enero,2020.0,Paula Pérez,Dirección 904,Empleado 904,Puesto 904,San Pedro Ayampuc, Envío de muestras, Envío de muestras,8.37,80,En Bodega,17.13,68.24
+267,Jueves,Octubre,2020.0,Ana Delgado,Dirección 906,Empleado 906,Puesto 906,Cantel, Paquete de accesorios, Paquete de accesorios,9.14,97,Recolectado,36.65,64.49
+697,Domingo,Enero,2022.0,Manuel Castro,Dirección 907,Empleado 907,Puesto 907,San Pedro Ayampuc, Caja de ropa, Caja de ropa,5.23,107,Entregado,46.38,33.73
+128,Domingo,Julio,2020.0,Víctor Pérez,Dirección 909,Empleado 909,Puesto 909,Jocotenango, Envío de artículos personales, Envío de artículos personales,1.31,9,Pendiente,30.38,88.17
+947,Jueves,Enero,2022.0,José Rodríguez,Dirección 918,Empleado 918,Puesto 918,Chicacao, Caja de tecnología, Caja de tecnología,5.36,106,En Bodega,28.12,24.25
+807,Sábado,Junio,2020.0,Manuel Reyes,Dirección 922,Empleado 922,Puesto 922,Jutiapa, Envío nocturno, Envío nocturno,1.19,97,Entregado,32.46,78.74
+34,Jueves,Mayo,2021.0,Rosa Ortega,Dirección 923,Empleado 923,Puesto 923,Petapa, Paquete discreto, Paquete discreto,4.6,103,Devolución,44.48,88.46
+668,Domingo,Enero,2020.0,David Cordero,Dirección 926,Empleado 926,Puesto 926,Antigua Guatemala, Envío ecológico, Envío ecológico,9.97,48,Entregado,14.51,28.7
+661,Viernes,Septiembre,2022.0,Luis Sánchez,Dirección 927,Empleado 927,Puesto 927,Malacatán, Envío a zona remota, Envío a zona remota,5.93,69,Devolución,27.02,7.98
+846,Miércoles,Septiembre,2020.0,Marta Quirós,Dirección 928,Empleado 928,Puesto 928,Cantel, Envío de artículos de belleza, Envío de artículos de belleza,0.51,53,Devolución,42.93,39.94
+161,Martes,Julio,2022.0,Laura Castro,Dirección 930,Empleado 930,Puesto 930,Chicacao, Paquete discreto, Paquete discreto,4.01,119,Recolectado,8.09,79.73
+375,Sábado,Marzo,2023.0,Roberto Villalobos,Dirección 942,Empleado 942,Puesto 942,Amatitlán, Envío express, Envío express,4.54,94,En Bodega,25.13,42.4
+822,Miércoles,Febrero,2021.0,Víctor Paredes,Dirección 948,Empleado 948,Puesto 948,Mazatenango, Envío urgente, Envío urgente,7.81,40,Recolectado,23.51,25.5
+677,Martes,Abril,2023.0,Ricardo Morales,Dirección 950,Empleado 950,Puesto 950,Ciudad Vieja, Envío de equipos deportivos, Envío de equipos deportivos,3.95,94,Recolectado,14.55,74.89
+969,Lunes,Junio,2023.0,Daniel García,Dirección 954,Empleado 954,Puesto 954,Guatemala City, Caja grande, Caja grande,9.28,22,Entregado,43.39,68.89
+232,Jueves,Enero,2021.0,Juan Bravo,Dirección 955,Empleado 955,Puesto 955,Mixco, Envío de muestras, Envío de muestras,1.83,108,En Bodega,38.28,15.05
+656,Jueves,Junio,2020.0,María Valverde,Dirección 959,Empleado 959,Puesto 959,Chiquimula, Bulto pesado, Bulto pesado,5.56,50,Pendiente,28.44,78.5
+49,Martes,Agosto,2021.0,Sofía Reyes,Dirección 963,Empleado 963,Puesto 963,Nahualá, Paquete pequeño, Paquete pequeño,6.28,88,Devolución,26.23,52.99
+303,Miércoles,Mayo,2023.0,Carmen Silva,Dirección 969,Empleado 969,Puesto 969,Amatitlán, Envío de artículos de belleza, Envío de artículos de belleza,9.78,41,En Bodega,46.26,20.69
+573,Miércoles,Febrero,2021.0,David Aguilar,Dirección 971,Empleado 971,Puesto 971,Escuintla, Paquete de productos químicos, Paquete de productos químicos,4.61,90,Devolución,38.39,39.99
+700,Sábado,Enero,2022.0,Patricia Vargas,Dirección 976,Empleado 976,Puesto 976,La Gomera, Caja de herramientas, Caja de herramientas,4.54,85,Devolución,39.87,80.64
+864,Viernes,Julio,2022.0,Rosa Ríos,Dirección 979,Empleado 979,Puesto 979,San Marcos, Paquete de documentos legales, Paquete de documentos legales,1.86,81,Recolectado,16.46,15.98
+719,Lunes,Diciembre,2021.0,Antonia Ramírez,Dirección 985,Empleado 985,Puesto 985,San Marcos, Caja de mercancía, Caja de mercancía,0.43,119,Recolectado,10.41,20.75
+85,Lunes,Septiembre,2021.0,Andrés Rojas,Dirección 988,Empleado 988,Puesto 988,Chiquimula, Caja de tecnología, Caja de tecnología,6.86,30,En Bodega,21.22,31.72
+201,Miércoles,Enero,2021.0,Eduardo Bravo,Dirección 989,Empleado 989,Puesto 989,San Francisco El Alto, Caja de ropa, Caja de ropa,5.82,69,En Bodega,30.5,49.45
+921,Lunes,Julio,2021.0,Carlos Moreno,Dirección 992,Empleado 992,Puesto 992,Sumpango, Envío urgente, Envío urgente,6.01,54,Devolución,31.95,48.01
+568,Jueves,Julio,2022.0,Natalia Moreno,Dirección 994,Empleado 994,Puesto 994,San Pablo Jocopilas, Envío de productos médicos, Envío de productos médicos,9.28,118,Entregado,13.75,4.06
+222,Miércoles,Diciembre,2023.0,Natalia Bravo,Dirección 1001,Empleado 1001,Puesto 1001,San Pedro Sacatepéquez, Envío de productos de limpieza, Envío de productos de limpieza,1.4,69,Recolectado,11.19,73.09
+398,Martes,Diciembre,2023.0,Francisco Duarte,Dirección 1006,Empleado 1006,Puesto 1006,Antigua Guatemala, Envío de material impreso, Envío de material impreso,6.9,47,Devolución,17.79,78.38
+52,Jueves,Febrero,2020.0,Manuel Sánchez,Dirección 1007,Empleado 1007,Puesto 1007,Jacaltenango, Carga industrial, Carga industrial,6.11,10,Pendiente,27.65,10.56
+801,Viernes,Marzo,2021.0,Raquel Pérez,Dirección 1010,Empleado 1010,Puesto 1010,San Juan Sacatepéquez, Envío de muestras, Envío de muestras,4.43,109,Entregado,34.9,96.66
+652,Lunes,Abril,2022.0,Marina Navarro,Dirección 1015,Empleado 1015,Puesto 1015,San José Pinula, Envío de productos médicos, Envío de productos médicos,8.53,66,Pendiente,8.67,55.16
+300,Lunes,Marzo,2020.0,Clara Torres,Dirección 1019,Empleado 1019,Puesto 1019,Palín, Caja de muebles pequeños, Caja de muebles pequeños,8.99,4,Devolución,47.58,79.18
+341,Lunes,Abril,2021.0,Sebastián Núñez,Dirección 1023,Empleado 1023,Puesto 1023,Quetzaltenango, Paquete discreto, Paquete discreto,7.47,36,Entregado,43.76,10.28
+789,Domingo,Febrero,2023.0,Felipe Gómez,Dirección 1040,Empleado 1040,Puesto 1040,Jacaltenango, Caja grande, Caja grande,6.67,68,Recolectado,44.52,22.04
+761,Domingo,Enero,2022.0,Francisco Navarro,Dirección 1041,Empleado 1041,Puesto 1041,San Pedro Sacatepéquez, Carga industrial, Carga industrial,3.32,93,Pendiente,7.28,58.16
+774,Martes,Agosto,2020.0,Raquel González,Dirección 1042,Empleado 1042,Puesto 1042,San Marcos, Envío a domicilio, Envío a domicilio,7.98,54,Entregado,21.22,32.31
+580,Sábado,Enero,2022.0,Clara Navarro,Dirección 1045,Empleado 1045,Puesto 1045,Antigua Guatemala, Envío de productos médicos, Envío de productos médicos,4.57,30,Recolectado,38.49,95.58
+120,Jueves,Enero,2023.0,Luis Valverde,Dirección 1049,Empleado 1049,Puesto 1049,Ostuncalco, Paquete de productos químicos, Paquete de productos químicos,8.15,6,Entregado,12.8,9.86
+381,Martes,Julio,2023.0,Valeria Sánchez,Dirección 1060,Empleado 1060,Puesto 1060,Palín, Caja de ropa, Caja de ropa,1.16,33,Recolectado,41.35,18.98
+727,Domingo,Julio,2020.0,Carolina Gómez,Dirección 1065,Empleado 1065,Puesto 1065,Patzún, Caja de ropa, Caja de ropa,5.13,81,En Bodega,32.43,93.23
+955,Martes,Noviembre,2023.0,Joaquín Cordero,Dirección 1069,Empleado 1069,Puesto 1069,Guatemala City, Carga peligrosa, Carga peligrosa,6.79,55,Entregado,44.54,92.32
+699,Martes,Diciembre,2023.0,Víctor González,Dirección 1072,Empleado 1072,Puesto 1072,Quetzaltenango, Caja grande, Caja grande,2.66,60,Recolectado,17.15,24.25
+694,Jueves,Mayo,2020.0,Daniel Duarte,Dirección 1074,Empleado 1074,Puesto 1074,San Pedro Sacatepéquez, Envío aéreo, Envío aéreo,1.18,116,Recolectado,37.02,60.0
+169,Jueves,Febrero,2022.0,Rosa Fernández,Dirección 1081,Empleado 1081,Puesto 1081,Malacatán, Envío internacional, Envío internacional,8.79,1,Devolución,38.58,67.12
+20,Miércoles,Diciembre,2020.0,José Aguilar,Dirección 1094,Empleado 1094,Puesto 1094,San Benito, Paquete de accesorios, Paquete de accesorios,5.25,2,Recolectado,20.0,11.45
+690,Lunes,Octubre,2020.0,Valeria Silva,Dirección 1096,Empleado 1096,Puesto 1096,Sumpango, Caja pequeña, Caja pequeña,6.38,48,Recolectado,35.3,37.54
+50,Martes,Octubre,2022.0,José Vargas,Dirección 1100,Empleado 1100,Puesto 1100,Puerto Barrios, Paquete pequeño, Paquete pequeño,7.94,58,Devolución,7.3,23.19
+217,Sábado,Abril,2020.0,Carlos Flores,Dirección 1103,Empleado 1103,Puesto 1103,Villa Nueva, Caja grande, Caja grande,2.45,13,Devolución,14.77,39.73
+709,Lunes,Noviembre,2022.0,Rosa Martínez,Dirección 1104,Empleado 1104,Puesto 1104,Nebaj, Envío internacional, Envío internacional,7.71,10,Entregado,23.79,35.19
+100,Lunes,Septiembre,2021.0,Lorena Ochoa,Dirección 1107,Empleado 1107,Puesto 1107,San Pedro Sacatepéquez, Bulto ligero, Bulto ligero,8.62,106,Pendiente,34.54,10.15
+666,Jueves,Diciembre,2022.0,Alejandro Pérez,Dirección 1109,Empleado 1109,Puesto 1109,Totonicapán, Paquete de libros, Paquete de libros,1.2,22,Pendiente,49.27,53.32
+629,Lunes,Agosto,2023.0,Eduardo Pérez,Dirección 1118,Empleado 1118,Puesto 1118,San Lucas Sacatepéquez, Carga voluminosa, Carga voluminosa,6.43,87,Recolectado,27.24,8.6
+854,Jueves,Julio,2020.0,Marta Reyes,Dirección 1121,Empleado 1121,Puesto 1121,Jutiapa, Envío de productos electrónicos, Envío de productos electrónicos,6.04,66,Entregado,20.59,45.29
+396,Domingo,Agosto,2023.0,Rosa Martínez,Dirección 1122,Empleado 1122,Puesto 1122,La Gomera, Envío de productos electrónicos, Envío de productos electrónicos,7.13,99,Pendiente,16.12,68.38
+235,Miércoles,Octubre,2022.0,Valeria Moreno,Dirección 1125,Empleado 1125,Puesto 1125,San Pablo Jocopilas, Envío urgente, Envío urgente,2.21,35,Pendiente,12.13,57.37
+878,Jueves,Noviembre,2020.0,Catalina Navarro,Dirección 1133,Empleado 1133,Puesto 1133,Cantel, Envío económico, Envío económico,4.68,84,Devolución,25.02,91.99
+631,Sábado,Septiembre,2021.0,Óscar Díaz,Dirección 1135,Empleado 1135,Puesto 1135,Santa Lucía Cotzumalguapa, Envío frágil, Envío frágil,1.48,119,Entregado,5.04,40.87
+630,Domingo,Abril,2021.0,Miguel Zamora,Dirección 1136,Empleado 1136,Puesto 1136,Coatepeque, Caja de regalo, Caja de regalo,4.99,7,Entregado,26.7,64.65
+581,Martes,Febrero,2023.0,Francisco Montes,Dirección 1139,Empleado 1139,Puesto 1139,Santa Catarina Pinula, Carga industrial, Carga industrial,3.86,28,En Bodega,19.13,16.33
+205,Lunes,Junio,2022.0,Laura Villalobos,Dirección 1170,Empleado 1170,Puesto 1170,Cobán, Caja de muebles pequeños, Caja de muebles pequeños,4.69,49,Entregado,37.01,72.45
+131,Jueves,Abril,2021.0,Lorena Fernández,Dirección 1180,Empleado 1180,Puesto 1180,San Benito, Envío de productos frágiles, Envío de productos frágiles,6.01,48,En Bodega,41.75,57.94
+72,Lunes,Noviembre,2020.0,Marina Ramírez,Dirección 1182,Empleado 1182,Puesto 1182,Quetzaltenango, Envío de documentos, Envío de documentos,5.51,66,Recolectado,19.75,46.51
+679,Sábado,Noviembre,2023.0,Felipe Jiménez,Dirección 1183,Empleado 1183,Puesto 1183,Villa Nueva, Envío de productos de limpieza, Envío de productos de limpieza,8.14,37,Entregado,27.27,57.95
+129,Miércoles,Abril,2022.0,Carmen Araya,Dirección 1195,Empleado 1195,Puesto 1195,Antigua Guatemala, Caja de ropa, Caja de ropa,9.38,45,Devolución,10.67,66.92
+962,Martes,Diciembre,2023.0,Valeria González,Dirección 1197,Empleado 1197,Puesto 1197,Puerto Barrios, Caja de mercancía, Caja de mercancía,4.68,38,Pendiente,39.21,24.09
+107,Miércoles,Abril,2021.0,Ana Zamora,Dirección 1199,Empleado 1199,Puesto 1199,Coatepeque, Envío aéreo, Envío aéreo,9.19,53,Entregado,5.68,63.74
+98,Miércoles,Septiembre,2021.0,Víctor Montes,Dirección 1206,Empleado 1206,Puesto 1206,Patzún, Carga consolidada, Carga consolidada,3.88,60,Recolectado,23.24,20.35
+812,Lunes,Marzo,2021.0,Ricardo Ríos,Dirección 1210,Empleado 1210,Puesto 1210,Palín, Envío urgente, Envío urgente,8.82,25,Recolectado,41.6,14.19
+3,Jueves,Enero,2023.0,Carolina Hernández,Dirección 1211,Empleado 1211,Puesto 1211,Petapa, Envío de productos electrónicos, Envío de productos electrónicos,4.49,38,Devolución,18.41,82.2
+59,Domingo,Diciembre,2022.0,José Sánchez,Dirección 1214,Empleado 1214,Puesto 1214,San Cristóbal Verapaz, Paquete certificado, Paquete certificado,6.15,61,En Bodega,5.46,52.84
+730,Domingo,Febrero,2022.0,Carlos Torres,Dirección 1218,Empleado 1218,Puesto 1218,Jalapa, Carga consolidada, Carga consolidada,8.42,95,Recolectado,28.44,12.45
+428,Viernes,Diciembre,2020.0,Lucía Ochoa,Dirección 1220,Empleado 1220,Puesto 1220,San Pablo Jocopilas, Paquete con seguimiento, Paquete con seguimiento,6.58,93,Entregado,8.04,3.52
+865,Domingo,Septiembre,2021.0,Natalia Reyes,Dirección 1221,Empleado 1221,Puesto 1221,Petapa, Envío de artículos de belleza, Envío de artículos de belleza,4.71,111,Devolución,32.82,79.98
+206,Miércoles,Marzo,2021.0,Paula Pérez,Dirección 1229,Empleado 1229,Puesto 1229,Retalhuleu, Envío marítimo, Envío marítimo,8.52,9,Entregado,40.68,71.6
+931,Lunes,Diciembre,2022.0,Isabel Ríos,Dirección 1236,Empleado 1236,Puesto 1236,San Benito, Envío de productos electrónicos, Envío de productos electrónicos,2.46,119,Entregado,47.9,77.66
+394,Martes,Febrero,2020.0,Sofía Ríos,Dirección 1240,Empleado 1240,Puesto 1240,Jutiapa, Envío ecológico, Envío ecológico,9.3,13,Entregado,40.5,53.46
+940,Martes,Febrero,2022.0,Andrés Villalobos,Dirección 1241,Empleado 1241,Puesto 1241,Sanarate, Paquete de productos químicos, Paquete de productos químicos,2.88,38,Entregado,9.83,17.46
+353,Miércoles,Marzo,2022.0,Carolina Ruiz,Dirección 1254,Empleado 1254,Puesto 1254,Villa Canales, Paquete mediano, Paquete mediano,6.08,3,Entregado,40.35,60.38
+234,Jueves,Diciembre,2020.0,José Araya,Dirección 1268,Empleado 1268,Puesto 1268,Chimaltenango, Envío de productos frágiles, Envío de productos frágiles,9.51,27,Devolución,45.1,54.5
+301,Lunes,Diciembre,2022.0,Sofía Rodríguez,Dirección 1275,Empleado 1275,Puesto 1275,Malacatán, Caja con rastreo GPS, Caja con rastreo GPS,1.52,52,Entregado,27.66,51.06
+55,Domingo,Noviembre,2022.0,Ricardo Jiménez,Dirección 1276,Empleado 1276,Puesto 1276,Jacaltenango, Paquete pequeño, Paquete pequeño,5.05,117,En Bodega,14.39,73.08
+10,Miércoles,Abril,2020.0,Daniel Mendoza,Dirección 1281,Empleado 1281,Puesto 1281,Mazatenango, Envío a sucursal, Envío a sucursal,4.88,104,Pendiente,45.72,45.36
+811,Domingo,Septiembre,2020.0,Rosa Fernández,Dirección 1297,Empleado 1297,Puesto 1297,Retalhuleu, Paquete de accesorios, Paquete de accesorios,0.47,114,Entregado,40.99,54.3
+897,Miércoles,Diciembre,2020.0,Pedro Valverde,Dirección 1305,Empleado 1305,Puesto 1305,Quetzaltenango, Paquete con seguimiento, Paquete con seguimiento,3.01,109,Entregado,20.98,53.25
+894,Miércoles,Diciembre,2022.0,Lucía Acosta,Dirección 1312,Empleado 1312,Puesto 1312,Puerto Barrios, Envío de productos médicos, Envío de productos médicos,0.42,54,Devolución,12.83,39.57
+291,Miércoles,Octubre,2021.0,Sebastián Flores,Dirección 1329,Empleado 1329,Puesto 1329,Petapa, Envío de juguetes, Envío de juguetes,5.73,102,Recolectado,45.37,49.93
+41,Miércoles,Agosto,2021.0,Lucía Moreno,Dirección 1331,Empleado 1331,Puesto 1331,Asunción Mita, Paquete con seguro, Paquete con seguro,1.69,110,Recolectado,40.11,85.29
+77,Jueves,Noviembre,2020.0,Juan García,Dirección 1341,Empleado 1341,Puesto 1341,Escuintla, Sobre grande, Sobre grande,1.94,118,Pendiente,26.59,85.22
+209,Viernes,Junio,2023.0,Adriana Ríos,Dirección 1361,Empleado 1361,Puesto 1361,Chicacao, Envío marítimo, Envío marítimo,7.01,41,En Bodega,32.47,61.4
+420,Sábado,Diciembre,2020.0,Miguel Ramírez,Dirección 1362,Empleado 1362,Puesto 1362,San Juan Sacatepéquez, Paquete con seguimiento, Paquete con seguimiento,9.71,31,Recolectado,31.25,25.84
+499,Sábado,Junio,2022.0,Alejandro Torres,Dirección 1366,Empleado 1366,Puesto 1366,San Cristóbal Verapaz, Paquete de productos químicos, Paquete de productos químicos,6.16,105,Entregado,38.98,12.91
+290,Martes,Septiembre,2021.0,Lorena Pérez,Dirección 1369,Empleado 1369,Puesto 1369,Sumpango, Paquete grande, Paquete grande,4.21,27,Devolución,37.29,51.99
+392,Martes,Julio,2021.0,Natalia Vargas,Dirección 1372,Empleado 1372,Puesto 1372,Sololá, Bulto ligero, Bulto ligero,4.75,107,Recolectado,24.16,90.14
+998,Jueves,Diciembre,2020.0,Felipe Peralta,Dirección 1373,Empleado 1373,Puesto 1373,Sololá, Sobre grande, Sobre grande,5.51,97,Recolectado,20.15,43.34
+64,Lunes,Diciembre,2023.0,Carlos Araya,Dirección 1375,Empleado 1375,Puesto 1375,San Juan Sacatepéquez, Caja pequeña, Caja pequeña,5.85,54,Pendiente,11.31,48.83
+133,Lunes,Junio,2020.0,Gabriel Gómez,Dirección 1378,Empleado 1378,Puesto 1378,Sololá, Envío económico, Envío económico,2.35,19,Entregado,17.55,28.23
+69,Sábado,Enero,2022.0,Carlos López,Dirección 1384,Empleado 1384,Puesto 1384,Patulul, Paquete con seguro, Paquete con seguro,0.52,102,Pendiente,21.36,65.35
+399,Miércoles,Enero,2020.0,Pedro Flores,Dirección 1390,Empleado 1390,Puesto 1390,Mixco, Envío de material impreso, Envío de material impreso,1.57,24,En Bodega,30.17,11.58
+935,Domingo,Octubre,2022.0,Valeria Rojas,Dirección 1401,Empleado 1401,Puesto 1401,San Cristóbal Verapaz, Envío urgente, Envío urgente,4.22,85,Entregado,13.25,16.2
+922,Miércoles,Septiembre,2022.0,Pedro Flores,Dirección 1408,Empleado 1408,Puesto 1408,San Marcos, Paquete mediano, Paquete mediano,6.61,4,Devolución,15.43,10.11
+788,Jueves,Mayo,2021.0,Clara Araya,Dirección 1410,Empleado 1410,Puesto 1410,Ciudad Vieja, Paquete grande, Paquete grande,7.45,16,En Bodega,8.6,60.55
+304,Miércoles,Marzo,2023.0,Laura Mendoza,Dirección 1421,Empleado 1421,Puesto 1421,Guatemala City, Envío de documentos, Envío de documentos,1.09,36,En Bodega,37.09,30.33
+241,Sábado,Noviembre,2022.0,Antonia Díaz,Dirección 1426,Empleado 1426,Puesto 1426,Patulul, Envío de muestras, Envío de muestras,5.84,31,Entregado,8.78,61.07
+320,Domingo,Octubre,2023.0,Elena Reyes,Dirección 1433,Empleado 1433,Puesto 1433,Antigua Guatemala, Paquete de accesorios, Paquete de accesorios,4.76,63,Recolectado,17.63,36.32
+956,Martes,Febrero,2022.0,Roberto Ortega,Dirección 1452,Empleado 1452,Puesto 1452,Barberena, Envío en fin de semana, Envío en fin de semana,8.19,40,Pendiente,25.14,40.88
+716,Jueves,Julio,2022.0,Ana Moreno,Dirección 1457,Empleado 1457,Puesto 1457,Chiquimula, Caja con rastreo GPS, Caja con rastreo GPS,9.16,30,Pendiente,28.96,83.51
+299,Jueves,Enero,2022.0,Sebastián García,Dirección 1467,Empleado 1467,Puesto 1467,San José Pinula, Paquete de accesorios, Paquete de accesorios,5.96,119,Pendiente,47.64,89.86
+910,Lunes,Julio,2022.0,Laura Ochoa,Dirección 1478,Empleado 1478,Puesto 1478,Nahualá, Caja de regalo, Caja de regalo,3.33,77,Devolución,38.49,42.59
+38,Miércoles,Febrero,2021.0,Sebastián Peralta,Dirección 1479,Empleado 1479,Puesto 1479,Quetzaltenango, Caja mediana, Caja mediana,2.93,110,Devolución,45.78,34.68
+542,Jueves,Octubre,2020.0,Laura Morales,Dirección 1484,Empleado 1484,Puesto 1484,Sanarate, Paquete con seguimiento, Paquete con seguimiento,2.53,35,Entregado,40.41,99.3
+649,Jueves,Noviembre,2023.0,Óscar González,Dirección 1491,Empleado 1491,Puesto 1491,San Marcos, Envío a domicilio, Envío a domicilio,5.67,103,Entregado,35.56,9.56
+530,Jueves,Mayo,2021.0,Sebastián García,Dirección 1497,Empleado 1497,Puesto 1497,Chimaltenango, Sobre grande, Sobre grande,3.56,108,En Bodega,21.9,76.23
+221,Jueves,Agosto,2020.0,María Zamora,Dirección 1498,Empleado 1498,Puesto 1498,Totonicapán, Carga peligrosa, Carga peligrosa,1.06,112,Devolución,23.38,23.95
+824,Viernes,Marzo,2022.0,Sofía Valverde,Dirección 1504,Empleado 1504,Puesto 1504,San Benito, Caja de herramientas, Caja de herramientas,6.88,24,Devolución,29.7,85.57
+861,Martes,Enero,2022.0,Luis Pérez,Dirección 1536,Empleado 1536,Puesto 1536,Santa Catarina Pinula, Envío económico, Envío económico,1.17,16,Pendiente,43.93,25.81
+838,Lunes,Abril,2023.0,Luis Prieto,Dirección 1540,Empleado 1540,Puesto 1540,Chiquimula, Envío de productos de limpieza, Envío de productos de limpieza,6.02,116,Entregado,28.32,95.36
+939,Jueves,Febrero,2020.0,Lucía Ruiz,Dirección 1599,Empleado 1599,Puesto 1599,Sololá, Paquete mediano, Paquete mediano,7.8,81,Entregado,41.48,45.99
+454,Viernes,Febrero,2020.0,Clara Cordero,Dirección 1619,Empleado 1619,Puesto 1619,Jacaltenango, Envío de productos médicos, Envío de productos médicos,0.17,35,En Bodega,19.42,23.41
+203,Jueves,Diciembre,2023.0,Valeria Espinoza,Dirección 1622,Empleado 1622,Puesto 1622,Villa Nueva, Paquete pequeño, Paquete pequeño,3.25,98,Entregado,40.75,12.19
+18,Martes,Octubre,2020.0,Joaquín López,Dirección 1637,Empleado 1637,Puesto 1637,Patulul, Caja de muebles pequeños, Caja de muebles pequeños,4.57,43,Devolución,8.67,93.58
+378,Domingo,Febrero,2022.0,Raquel Fernández,Dirección 1646,Empleado 1646,Puesto 1646,Ostuncalco, Envío de material impreso, Envío de material impreso,3.08,30,Pendiente,28.35,17.96
+636,Domingo,Agosto,2020.0,Juan Rojas,Dirección 1664,Empleado 1664,Puesto 1664,Petapa, Bulto ligero, Bulto ligero,7.2,113,En Bodega,40.35,52.52
+836,Martes,Noviembre,2022.0,Clara Díaz,Dirección 1669,Empleado 1669,Puesto 1669,Ciudad Vieja, Paquete de accesorios, Paquete de accesorios,8.53,49,Recolectado,6.16,65.58
+312,Sábado,Septiembre,2020.0,Laura Jiménez,Dirección 1671,Empleado 1671,Puesto 1671,Nahualá, Caja mediana, Caja mediana,6.41,17,En Bodega,5.08,4.2
+596,Martes,Noviembre,2020.0,Natalia García,Dirección 1672,Empleado 1672,Puesto 1672,Sanarate, Envío de material impreso, Envío de material impreso,4.01,90,En Bodega,40.57,57.83
+512,Martes,Octubre,2020.0,Felipe Hernández,Dirección 1677,Empleado 1677,Puesto 1677,Petapa, Caja grande, Caja grande,9.35,63,Recolectado,23.92,30.76
+123,Sábado,Enero,2020.0,Patricia Ruiz,Dirección 1684,Empleado 1684,Puesto 1684,Chiquimula, Envío de juguetes, Envío de juguetes,6.23,47,Devolución,37.72,11.98
+225,Sábado,Julio,2021.0,Óscar Jiménez,Dirección 1688,Empleado 1688,Puesto 1688,Puerto Barrios, Envío marítimo, Envío marítimo,4.04,90,Entregado,25.89,64.48
+848,Sábado,Mayo,2021.0,Roberto Ochoa,Dirección 1694,Empleado 1694,Puesto 1694,San Lucas Sacatepéquez, Envío internacional, Envío internacional,4.98,100,Pendiente,31.93,21.89
+667,Viernes,Febrero,2022.0,Manuel Villalobos,Dirección 1709,Empleado 1709,Puesto 1709,Amatitlán, Envío aéreo, Envío aéreo,4.05,80,Pendiente,9.76,31.9
+177,Viernes,Diciembre,2022.0,Luis Paredes,Dirección 1742,Empleado 1742,Puesto 1742,Santa Cruz del Quiché, Envío nocturno, Envío nocturno,8.49,57,En Bodega,28.02,14.48
+233,Jueves,Agosto,2020.0,Víctor Bravo,Dirección 1764,Empleado 1764,Puesto 1764,Chicacao, Paquete grande, Paquete grande,6.01,111,Pendiente,17.24,85.62
+436,Lunes,Octubre,2021.0,Pedro Torres,Dirección 1772,Empleado 1772,Puesto 1772,Chiquimula, Envío marítimo, Envío marítimo,3.46,98,En Bodega,9.96,63.01
+331,Viernes,Diciembre,2023.0,Laura Moreno,Dirección 1776,Empleado 1776,Puesto 1776,Jacaltenango, Envío de productos frágiles, Envío de productos frágiles,8.33,82,Pendiente,48.68,58.02
+402,Martes,Septiembre,2023.0,Ricardo Aguilar,Dirección 1787,Empleado 1787,Puesto 1787,San Pablo Jocopilas, Carga industrial, Carga industrial,1.1,82,En Bodega,45.65,91.52
+532,Miércoles,Noviembre,2023.0,Sofía Reyes,Dirección 1804,Empleado 1804,Puesto 1804,Ciudad Vieja, Paquete con seguro, Paquete con seguro,7.13,30,Entregado,39.09,71.31
+124,Martes,Mayo,2021.0,Carmen García,Dirección 1814,Empleado 1814,Puesto 1814,San Juan Sacatepéquez, Envío express, Envío express,1.9,20,Recolectado,33.9,52.35
+687,Miércoles,Octubre,2023.0,Eduardo Araya,Dirección 1825,Empleado 1825,Puesto 1825,Retalhuleu, Caja pequeña, Caja pequeña,5.38,45,En Bodega,48.79,22.76
+485,Sábado,Julio,2020.0,Antonia Delgado,Dirección 1831,Empleado 1831,Puesto 1831,Sanarate, Paquete certificado, Paquete certificado,9.69,75,Entregado,35.46,1.46
+826,Jueves,Mayo,2023.0,Ricardo Montes,Dirección 1833,Empleado 1833,Puesto 1833,Villa Canales, Envío nocturno, Envío nocturno,2.84,63,Devolución,21.31,59.49
+549,Lunes,Abril,2022.0,Daniel Bravo,Dirección 1834,Empleado 1834,Puesto 1834,Barberena, Envío de juguetes, Envío de juguetes,4.87,46,Entregado,34.92,59.84
+478,Domingo,Abril,2023.0,Antonia Navarro,Dirección 1841,Empleado 1841,Puesto 1841,La Gomera, Envío a sucursal, Envío a sucursal,9.06,22,Devolución,18.17,52.03
+671,Lunes,Agosto,2021.0,Clara García,Dirección 1851,Empleado 1851,Puesto 1851,Cantel, Caja de tecnología, Caja de tecnología,7.23,47,Devolución,32.2,85.04
+565,Martes,Septiembre,2022.0,Raquel Fernández,Dirección 1888,Empleado 1888,Puesto 1888,San Pedro Ayampuc, Envío de alimentos perecederos, Envío de alimentos perecederos,8.64,21,Entregado,10.28,99.97
+514,Lunes,Junio,2021.0,Carolina Ortega,Dirección 1906,Empleado 1906,Puesto 1906,Quetzaltenango, Sobre pequeño, Sobre pequeño,8.09,60,Recolectado,46.48,4.87
+459,Martes,Enero,2021.0,David Espinoza,Dirección 1908,Empleado 1908,Puesto 1908,Sololá, Carga consolidada, Carga consolidada,4.51,20,En Bodega,49.28,91.66
+481,Martes,Noviembre,2020.0,Lorena Araya,Dirección 1921,Empleado 1921,Puesto 1921,Petapa, Envío de productos médicos, Envío de productos médicos,2.32,57,En Bodega,28.05,93.87
+220,Domingo,Junio,2023.0,Gabriel Ochoa,Dirección 1923,Empleado 1923,Puesto 1923,Jocotenango, Paquete de documentos legales, Paquete de documentos legales,1.28,68,Pendiente,47.9,23.73
+601,Martes,Febrero,2023.0,Luis Silva,Dirección 1935,Empleado 1935,Puesto 1935,Escuintla, Caja mediana, Caja mediana,5.71,117,Pendiente,5.6,41.27
+934,Martes,Noviembre,2022.0,Juan Morales,Dirección 1948,Empleado 1948,Puesto 1948,Sololá, Envío marítimo, Envío marítimo,6.56,10,Recolectado,32.25,22.32
+714,Domingo,Octubre,2021.0,Lucía Rojas,Dirección 1951,Empleado 1951,Puesto 1951,Amatitlán, Envío a sucursal, Envío a sucursal,4.67,118,Devolución,40.0,88.33
+612,Miércoles,Julio,2021.0,Isabel Vargas,Dirección 1963,Empleado 1963,Puesto 1963,Barberena, Envío a zona remota, Envío a zona remota,4.98,26,Recolectado,5.33,60.45
+597,Jueves,Octubre,2022.0,Roberto Araya,Dirección 1971,Empleado 1971,Puesto 1971,Retalhuleu, Paquete discreto, Paquete discreto,8.14,106,Pendiente,31.27,64.54
+126,Jueves,Agosto,2022.0,María Ortega,Dirección 1976,Empleado 1976,Puesto 1976,La Gomera, Envío de productos de limpieza, Envío de productos de limpieza,9.6,27,Devolución,30.06,31.79
+21,Miércoles,Agosto,2023.0,Catalina Paredes,Dirección 1978,Empleado 1978,Puesto 1978,Mazatenango, Sobre pequeño, Sobre pequeño,6.14,32,Pendiente,11.91,6.69
+13,Martes,Septiembre,2023.0,Alejandro Rodríguez,Dirección 1989,Empleado 1989,Puesto 1989,San Lucas Sacatepéquez, Paquete de libros, Paquete de libros,3.37,99,Recolectado,30.46,84.35
+818,Sábado,Noviembre,2021.0,Ricardo Ríos,Dirección 2000,Empleado 2000,Puesto 2000,San Juan Sacatepéquez, Caja de herramientas, Caja de herramientas,6.23,34,En Bodega,12.2,66.43
