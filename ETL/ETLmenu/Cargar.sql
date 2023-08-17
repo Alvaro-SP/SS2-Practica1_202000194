@@ -1,35 +1,53 @@
 USE [Practica]
 GO
-INSERT INTO Time (years, months, days, hours, minutes, seconds)
-(				  
-	SELECT DISTINCT TEMPORAL.years, TEMPORAL.months, TEMPORAL.days,TEMPORAL.hours, TEMPORAL.minutes, TEMPORAL.seconds
-	FROM TEMPORAL
+INSERT INTO Time (Dia, Mes, Anio)
+(
+    SELECT DISTINCT TempDelivery.Dia, TempDelivery.Mes, TempDelivery.Anio
+    FROM TempDelivery
 )
 GO
-INSERT INTO Country (name)
+INSERT INTO Client (name)
 (
-	SELECT DISTINCT TEMPORAL.country
-	FROM TEMPORAL
+    SELECT DISTINCT TempDelivery.NombreCliente, TempDelivery.Direccion
+    FROM TempDelivery
 )
-INSERT INTO Location_Name (name)
+INSERT INTO TimeDeliver (TiempoEntrega)
 (
-	SELECT DISTINCT TEMPORAL.location_name
-	FROM TEMPORAL
+    SELECT DISTINCT TempDelivery.TiempoEntrega
+    FROM TempDelivery
 )
 
-INSERT INTO Tsunami (event_validity, cause_code, magnitude_earthquake, deposits,latitud,longtitude,height_water,runups,magnitude_lida,intensity)
+INSERT INTO Catalog (EstadoEntrega )
 (
-	SELECT DISTINCT event_validity, cause_code, magnitude_earthquake, deposits,latitude, longitude,height_water,runups,magnitude_lida,intensity
-	FROM TEMPORAL
+    SELECT DISTINCT TempDelivery.EstadoEntrega
+    FROM TempDelivery
+)
+INSERT INTO City (ciudadEntrega)
+(
+    SELECT DISTINCT TempDelivery.CiudadEntrega
+    FROM TempDelivery
+)
+INSERT INTO Employ (NombreEmpleadoEntrega, PuestoEmpleadoEntrega)
+(
+    SELECT DISTINCT TempDelivery.NombreEmpleadoEntrega, TempDelivery.PuestoEmpleadoEntrega
+    FROM TempDelivery
+)
+INSERT INTO Product (NombreProducto, Descripción, Peso, PrecioProducto)
+(
+    SELECT DISTINCT TempDelivery.NombreProducto, TempDelivery.Descripción, TempDelivery.Peso, TempDelivery.PrecioProducto
+    FROM TempDelivery
 )
 GO
-INSERT INTO History (idTsunami, idCountry, idLocation, idDates, total_deaths, total_missing, total_missing_desc, total_injuries, total_damage, total_damage_desc, total_house_destroy, total_house_damage)
-SELECT Tsunami.idTsunami, Country.idCountry, Location_Name.idLocation_name, Dates.idDates,
-       TEMPORAL.total_deaths, TEMPORAL.total_missing, TEMPORAL.total_missing_desc, TEMPORAL.total_injuries, TEMPORAL.total_damage, TEMPORAL.total_damage_desc, TEMPORAL.total_house_destroyed, TEMPORAL.total_house_damaged
-FROM TEMPORAL
-JOIN Country ON TEMPORAL.country = Country.name
-JOIN Dates ON TEMPORAL.years = Dates.years AND TEMPORAL.months = Dates.months AND TEMPORAL.days = Dates.days AND TEMPORAL.hours = Dates.hours AND TEMPORAL.minutes = Dates.minutes AND TEMPORAL.seconds = Dates.seconds
-JOIN Location_Name ON TEMPORAL.location_name = Location_Name.name
-JOIN Tsunami ON TEMPORAL.event_validity = Tsunami.event_validity AND TEMPORAL.cause_code = Tsunami.cause_code AND TEMPORAL.magnitude_earthquake = Tsunami.magnitude_earthquake AND TEMPORAL.deposits = Tsunami.deposits AND TEMPORAL.latitude = Tsunami.latitud AND TEMPORAL.longitude = Tsunami.longtitude AND TEMPORAL.height_water = Tsunami.height_water AND TEMPORAL.runups = Tsunami.runups AND TEMPORAL.magnitude_lida = Tsunami.magnitude_lida AND TEMPORAL.intensity = Tsunami.intensity;
-
+INSERT INTO Delivery (EntregaID, TimeID, ClientID, EmployID, CityID, ProductID, TimeDeliverID, CatalogID, CostoEnvio)
+(
+    SELECT DISTINCT TempDelivery.EntregaID, Time.ID, Client.ID, Employ.ID, City.ID, Product.ID, TimeDeliver.ID, Catalog.ID, TempDelivery.CostoEnvio
+    FROM TempDelivery
+    INNER JOIN Time ON TempDelivery.Dia = Time.Dia AND TempDelivery.Mes = Time.Mes AND TempDelivery.Anio = Time.Anio
+    INNER JOIN Client ON TempDelivery.NombreCliente = Client.NombreCliente AND TempDelivery.Direccion = Client.Direccion
+    INNER JOIN Employ ON TempDelivery.NombreEmpleadoEntrega = Employ.NombreEmpleadoEntrega AND TempDelivery.PuestoEmpleadoEntrega = Employ.PuestoEmpleadoEntrega
+    INNER JOIN City ON TempDelivery.CiudadEntrega = City.CiudadEntrega
+    INNER JOIN Product ON TempDelivery.NombreProducto = Product.NombreProducto AND TempDelivery.Descripción = Product.Descripción AND TempDelivery.Peso = Product.Peso AND TempDelivery.PrecioProducto = Product.PrecioProducto
+    INNER JOIN TimeDeliver ON TempDelivery.TiempoEntrega = TimeDeliver.TiempoEntrega
+    INNER JOIN Catalog ON TempDelivery.EstadoEntrega = Catalog.EstadoEntrega
+)
 GO
