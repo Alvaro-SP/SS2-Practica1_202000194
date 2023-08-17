@@ -109,6 +109,8 @@ def menu():
         #* 5)  Realizar consultas: Ejecutará un script con las consultas solicitadas y
         #* guardará los resultados en un archivo de texto.
             print("Consulta 1")
+            #! 1.  SELECT COUNT(*) de todas las tablas para ver que si realizo la carga en las tablas del modelo.
+            
             sqlcmd_command = ""
             result = subprocess.run(
                 sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
@@ -116,13 +118,26 @@ def menu():
             crearArchivo(result.stdout.decode(), 'Consulta1.txt')
 
             print("Consulta 2")
+            #! 2.  Top 5 Clientes con más entregas realizadas
+            
             sqlcmd_command = ""
             result = subprocess.run(
                 sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
             print(result.stdout.decode())
             crearArchivo(result.stdout.decode(), 'Consulta2.txt')
 
+            print("Consulta 3")
+            #! 3.  Top 5 de productos con el costo de envío más alto.
+            
+            sqlcmd_command = ""
+            result = subprocess.run(
+                sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+            print(result.stdout.decode())
+            crearArchivo(result.stdout.decode(), 'Consulta3.txt')
+
             print("Consulta 4")
+            #! 4.  Top 5 de ciudades con más entregas
+            
             sqlcmd_command = ""
             result = subprocess.run(
                 sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
@@ -130,6 +145,8 @@ def menu():
             crearArchivo(result.stdout.decode(), 'Consulta4.txt')
 
             print("Consulta 5")
+            #! 5.  Top 5 de envíos con estado Pendiente
+            
             sqlcmd_command = ""
             result = subprocess.run(
                 sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
@@ -137,6 +154,8 @@ def menu():
             crearArchivo(result.stdout.decode(), 'Consulta5.txt')
 
             print("Consulta 6")
+            #! 6.  Top 5 de envíos con estado Entregado
+            
             sqlcmd_command = ""
             result = subprocess.run(
                 sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
@@ -144,6 +163,8 @@ def menu():
             crearArchivo(result.stdout.decode(), 'Consulta6.txt')
 
             print("Consulta 7")
+            #! 7.  Total de entregas realizadas por ciudad.
+            
             sqlcmd_command = ""
             result = subprocess.run(
                 sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
@@ -151,6 +172,8 @@ def menu():
             crearArchivo(result.stdout.decode(), 'Consulta7.txt')
 
             print("Consulta 8")
+            #! 8.  Total de Entregas por días de la semana
+            
             sqlcmd_command = ""
             result = subprocess.run(
                 sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
@@ -158,6 +181,8 @@ def menu():
             crearArchivo(result.stdout.decode(), 'Consulta8.txt')
 
             print("Consulta 9")
+            #! 9.  Total de Entregas por mes
+            
             sqlcmd_command = ""
             result = subprocess.run(
                 sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
@@ -165,6 +190,7 @@ def menu():
             crearArchivo(result.stdout.decode(), 'Consulta9.txt')
 
             print("Consulta 10")
+            #! 10. Total de Entregas por año
             sqlcmd_command = ""
             result = subprocess.run(
                 sqlcmd_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)

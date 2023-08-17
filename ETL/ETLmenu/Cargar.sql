@@ -1,6 +1,6 @@
 USE [Practica]
 GO
-INSERT INTO Dates (years, months, days, hours, minutes, seconds)
+INSERT INTO Time (years, months, days, hours, minutes, seconds)
 (				  
 	SELECT DISTINCT TEMPORAL.years, TEMPORAL.months, TEMPORAL.days,TEMPORAL.hours, TEMPORAL.minutes, TEMPORAL.seconds
 	FROM TEMPORAL
