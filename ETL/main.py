@@ -73,6 +73,7 @@ def menu():
     print("║ ║╚═╗╠═╣║──  DELIVERY  ")
     print("╚═╝╚═╝╩ ╩╚═╝     ")
     while True:
+        print("1)  Borrar modelo")
         print("2)  Crear modelo")
         print("3)  Extraer información")
         print("4)  Cargar información")
