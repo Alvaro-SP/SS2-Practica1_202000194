@@ -2,12 +2,17 @@
 
 SELECT TOP 5
     d.EntregaID,
-    c.EstadoEntrega AS Estado
+    p.NombreProducto,
+    COUNT(d.ProductID) AS TotalEnviosPendientes
 FROM
     Delivery d
 INNER JOIN
     Catalog c ON d.CatalogID = c.id
+INNER JOIN
+    Product p ON d.ProductID = p.id
 WHERE
     c.EstadoEntrega = 'Entregado'
+GROUP BY
+    p.NombreProducto
 ORDER BY
-    d.EntregaID;
+    TotalEnviosPendientes DESC;

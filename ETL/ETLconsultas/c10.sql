@@ -10,4 +10,4 @@ INNER JOIN
 GROUP BY
     t.Anio
 ORDER BY
-    t.id;
+    Total_Entregas DESC;
