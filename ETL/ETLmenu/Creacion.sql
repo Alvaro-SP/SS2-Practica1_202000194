@@ -27,12 +27,13 @@ CREATE TABLE practica1ETL.dbo.TempDelivery (
 );
 
 
+
 -- Drop table
 
 -- DROP TABLE practica1ETL.dbo.[Catalog];
 
 CREATE TABLE practica1ETL.dbo.[Catalog] (
-	id int NOT NULL,
+	id int IDENTITY(1,1) NOT NULL,
 	EstadoEntrega varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	CONSTRAINT PK_Catalog PRIMARY KEY (id)
 );
@@ -45,7 +46,7 @@ CREATE TABLE practica1ETL.dbo.[Catalog] (
 -- DROP TABLE practica1ETL.dbo.City;
 
 CREATE TABLE practica1ETL.dbo.City (
-	id int NOT NULL,
+	id int IDENTITY(1,1) NOT NULL,
 	ciudadEntrega varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	CONSTRAINT PK_City PRIMARY KEY (id)
 );
@@ -58,7 +59,7 @@ CREATE TABLE practica1ETL.dbo.City (
 -- DROP TABLE practica1ETL.dbo.Client;
 
 CREATE TABLE practica1ETL.dbo.Client (
-	id int NOT NULL,
+	id int IDENTITY(1,1) NOT NULL,
 	NombreCliente varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	Direccion varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	CONSTRAINT PK_Client PRIMARY KEY (id)
@@ -72,7 +73,7 @@ CREATE TABLE practica1ETL.dbo.Client (
 -- DROP TABLE practica1ETL.dbo.Employ;
 
 CREATE TABLE practica1ETL.dbo.Employ (
-	id int NOT NULL,
+	id int IDENTITY(1,1) NOT NULL,
 	NombreEmpleadoEntrega varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	PuestoEmpleadoEntrega varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	CONSTRAINT PK_Employ PRIMARY KEY (id)
@@ -86,7 +87,7 @@ CREATE TABLE practica1ETL.dbo.Employ (
 -- DROP TABLE practica1ETL.dbo.Product;
 
 CREATE TABLE practica1ETL.dbo.Product (
-	id int NOT NULL,
+	id int IDENTITY(1,1) NOT NULL,
 	NombreProducto varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	Descripción varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	Peso varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
@@ -102,7 +103,7 @@ CREATE TABLE practica1ETL.dbo.Product (
 -- DROP TABLE practica1ETL.dbo.[Time];
 
 CREATE TABLE practica1ETL.dbo.[Time] (
-	id int NOT NULL,
+	id int IDENTITY(1,1) NOT NULL,
 	Dia varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	Mes varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	Anio int NULL,
@@ -117,7 +118,7 @@ CREATE TABLE practica1ETL.dbo.[Time] (
 -- DROP TABLE practica1ETL.dbo.TimeDeliver;
 
 CREATE TABLE practica1ETL.dbo.TimeDeliver (
-	id int NOT NULL,
+	id int IDENTITY(1,1) NOT NULL,
 	TiempoEntrega int NULL,
 	CONSTRAINT PK_TimeDeliver PRIMARY KEY (id)
 );
@@ -165,6 +166,3 @@ CREATE TABLE practica1ETL.dbo.Delivery (
 	CONSTRAINT FK_Delivery_Time FOREIGN KEY (TimeID) REFERENCES practica1ETL.dbo.[Time](id),
 	CONSTRAINT FK_Delivery_TimeDeliver FOREIGN KEY (TimeDeliverID) REFERENCES practica1ETL.dbo.TimeDeliver(id)
 );
-
-
-

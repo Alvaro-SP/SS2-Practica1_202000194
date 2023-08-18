@@ -2,6 +2,7 @@ USE [Practica1ETL]
 GO
 
 -- ELIMINACIÓN DE TABLAS
+DROP TABLE practica1ETL.dbo.TempDelivery;
 DROP TABLE practica1ETL.dbo.[Catalog];
 DROP TABLE practica1ETL.dbo.City;
 DROP TABLE practica1ETL.dbo.Client;

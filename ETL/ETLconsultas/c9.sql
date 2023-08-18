@@ -10,4 +10,4 @@ INNER JOIN
 GROUP BY
     t.Mes
 ORDER BY
-    t.id;
+    Total_Entregas DESC;

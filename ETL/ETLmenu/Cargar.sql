@@ -1,4 +1,4 @@
-USE [Practica]
+USE [practica1ETL]
 GO
 INSERT INTO Time (Dia, Mes, Anio)
 (
@@ -6,7 +6,7 @@ INSERT INTO Time (Dia, Mes, Anio)
     FROM TempDelivery
 )
 GO
-INSERT INTO Client (name)
+INSERT INTO Client (NombreCliente, Direccion)
 (
     SELECT DISTINCT TempDelivery.NombreCliente, TempDelivery.Direccion
     FROM TempDelivery

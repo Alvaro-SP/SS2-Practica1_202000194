@@ -10,4 +10,4 @@ INNER JOIN
 GROUP BY
     t.Dia
 ORDER BY
-    t.id;
+    Total_Entregas DESC;

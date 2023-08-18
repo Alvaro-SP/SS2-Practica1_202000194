@@ -10,4 +10,4 @@ INNER JOIN
 GROUP BY
     c.ciudadEntrega
 ORDER BY
-    TotalEntregas DESC;
+    Total_Entregas DESC;

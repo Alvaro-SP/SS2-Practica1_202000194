@@ -57,6 +57,7 @@ def clean():
 
     # Eliminar filas con celdas vacías
     df = df.dropna(subset=["Anio"])
+    df["Anio"] = pd.to_numeric(df["Anio"], downcast="integer")
     df = df.dropna(subset=["NombreProducto"])
     df = df.dropna(subset=["EstadoEntrega"])
     df = df.dropna(subset=["PrecioProducto"])
