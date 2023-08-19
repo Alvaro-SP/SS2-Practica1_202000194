@@ -11,11 +11,6 @@ INSERT INTO Client (NombreCliente, Direccion)
     SELECT DISTINCT TempDelivery.NombreCliente, TempDelivery.Direccion
     FROM TempDelivery
 )
-INSERT INTO TimeDeliver (TiempoEntrega)
-(
-    SELECT DISTINCT TempDelivery.TiempoEntrega
-    FROM TempDelivery
-)
 
 INSERT INTO Catalog (EstadoEntrega )
 (
@@ -38,16 +33,15 @@ INSERT INTO Product (NombreProducto, Descripción, Peso, PrecioProducto)
     FROM TempDelivery
 )
 GO
-INSERT INTO Delivery (EntregaID, TimeID, ClientID, EmployID, CityID, ProductID, TimeDeliverID, CatalogID, CostoEnvio)
+INSERT INTO Delivery (EntregaID, TimeID, ClientID, EmployID, CityID, ProductID, CatalogID, CostoEnvio, TiempoEntrega)
 (
-    SELECT DISTINCT TempDelivery.EntregaID, Time.ID, Client.ID, Employ.ID, City.ID, Product.ID, TimeDeliver.ID, Catalog.ID, TempDelivery.CostoEnvio
+    SELECT DISTINCT TempDelivery.EntregaID, Time.ID, Client.ID, Employ.ID, City.ID, Product.ID, Catalog.ID, TempDelivery.CostoEnvio, TempDelivery.TiempoEntrega
     FROM TempDelivery
     INNER JOIN Time ON TempDelivery.Dia = Time.Dia AND TempDelivery.Mes = Time.Mes AND TempDelivery.Anio = Time.Anio
     INNER JOIN Client ON TempDelivery.NombreCliente = Client.NombreCliente AND TempDelivery.Direccion = Client.Direccion
     INNER JOIN Employ ON TempDelivery.NombreEmpleadoEntrega = Employ.NombreEmpleadoEntrega AND TempDelivery.PuestoEmpleadoEntrega = Employ.PuestoEmpleadoEntrega
     INNER JOIN City ON TempDelivery.CiudadEntrega = City.CiudadEntrega
     INNER JOIN Product ON TempDelivery.NombreProducto = Product.NombreProducto AND TempDelivery.Descripción = Product.Descripción AND TempDelivery.Peso = Product.Peso AND TempDelivery.PrecioProducto = Product.PrecioProducto
-    INNER JOIN TimeDeliver ON TempDelivery.TiempoEntrega = TimeDeliver.TiempoEntrega
     INNER JOIN Catalog ON TempDelivery.EstadoEntrega = Catalog.EstadoEntrega
 )
 GO

@@ -7,26 +7,26 @@ GO
 -- practica1ETL.dbo.[Catalog] definition
 
 -- Crear una tabla temporal para operaciones BULK
-CREATE TABLE practica1ETL.dbo.TempDelivery (
-    EntregaID int NOT NULL,
-	Dia	varchar(50)  NULL,
-	Mes	varchar(50)  NULL,
-	Anio int  NULL,
-	NombreCliente varchar(50)  NULL,
-	Direccion varchar(50)  NULL,
-	NombreEmpleadoEntrega varchar(50)  NULL,
-	PuestoEmpleadoEntrega	varchar(50)  NULL,
-	CiudadEntrega	varchar(50)  NULL,
-	NombreProducto	varchar(50)  NULL,
-	Descripción	varchar(50)  NULL,
-	Peso	varchar(50)  NULL,
-	TiempoEntrega int  NULL,
-	EstadoEntrega	varchar(50)  NULL,
-	CostoEnvio	varchar(50)  NULL,
-	PrecioProducto real  NULL,
-);
+-- CREATE TABLE practica1ETL.dbo.TempDelivery (
+--     EntregaID int NOT NULL,
+-- 	Dia	varchar(50)  NULL,
+-- 	Mes	varchar(50)  NULL,
+-- 	Anio int  NULL,
+-- 	NombreCliente varchar(50)  NULL,
+-- 	Direccion varchar(50)  NULL,
+-- 	NombreEmpleadoEntrega varchar(50)  NULL,
+-- 	PuestoEmpleadoEntrega	varchar(50)  NULL,
+-- 	CiudadEntrega	varchar(50)  NULL,
+-- 	NombreProducto	varchar(50)  NULL,
+-- 	Descripción	varchar(50)  NULL,
+-- 	Peso	varchar(50)  NULL,
+-- 	TiempoEntrega int  NULL,
+-- 	EstadoEntrega	varchar(50)  NULL,
+-- 	CostoEnvio	varchar(50)  NULL,
+-- 	PrecioProducto real  NULL,
+-- );
 
-
+-- practica1ETL.dbo.[Catalog] definition
 
 -- Drop table
 
@@ -96,6 +96,32 @@ CREATE TABLE practica1ETL.dbo.Product (
 );
 
 
+-- practica1ETL.dbo.TempDelivery definition
+
+-- Drop table
+
+-- DROP TABLE practica1ETL.dbo.TempDelivery;
+
+CREATE TABLE practica1ETL.dbo.TempDelivery (
+	EntregaID int NOT NULL,
+	Dia varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	Mes varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	Anio int NULL,
+	NombreCliente varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	Direccion varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	NombreEmpleadoEntrega varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	PuestoEmpleadoEntrega varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	CiudadEntrega varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	NombreProducto varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	Descripción varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	Peso varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	TiempoEntrega int NULL,
+	EstadoEntrega varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	CostoEnvio varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	PrecioProducto real NULL
+);
+
+
 -- practica1ETL.dbo.[Time] definition
 
 -- Drop table
@@ -108,19 +134,6 @@ CREATE TABLE practica1ETL.dbo.[Time] (
 	Mes varchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	Anio int NULL,
 	CONSTRAINT PK_Time PRIMARY KEY (id)
-);
-
-
--- practica1ETL.dbo.TimeDeliver definition
-
--- Drop table
-
--- DROP TABLE practica1ETL.dbo.TimeDeliver;
-
-CREATE TABLE practica1ETL.dbo.TimeDeliver (
-	id int IDENTITY(1,1) NOT NULL,
-	TiempoEntrega int NULL,
-	CONSTRAINT PK_TimeDeliver PRIMARY KEY (id)
 );
 
 
@@ -154,15 +167,14 @@ CREATE TABLE practica1ETL.dbo.Delivery (
 	EmployID int NULL,
 	CityID int NULL,
 	ProductID int NULL,
-	TimeDeliverID int NULL,
 	CatalogID int NULL,
 	CostoEnvio real NULL,
+	TiempoEntrega int NULL,
 	CONSTRAINT PK_Delivery PRIMARY KEY (EntregaID),
 	CONSTRAINT FK_Delivery_Catalog FOREIGN KEY (CatalogID) REFERENCES practica1ETL.dbo.[Catalog](id),
 	CONSTRAINT FK_Delivery_City FOREIGN KEY (CityID) REFERENCES practica1ETL.dbo.City(id),
 	CONSTRAINT FK_Delivery_Client FOREIGN KEY (ClientID) REFERENCES practica1ETL.dbo.Client(id),
 	CONSTRAINT FK_Delivery_Employ FOREIGN KEY (EmployID) REFERENCES practica1ETL.dbo.Employ(id),
 	CONSTRAINT FK_Delivery_Product FOREIGN KEY (ProductID) REFERENCES practica1ETL.dbo.Product(id),
-	CONSTRAINT FK_Delivery_Time FOREIGN KEY (TimeID) REFERENCES practica1ETL.dbo.[Time](id),
-	CONSTRAINT FK_Delivery_TimeDeliver FOREIGN KEY (TimeDeliverID) REFERENCES practica1ETL.dbo.TimeDeliver(id)
+	CONSTRAINT FK_Delivery_Time FOREIGN KEY (TimeID) REFERENCES practica1ETL.dbo.[Time](id)
 );

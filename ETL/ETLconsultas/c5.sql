@@ -14,3 +14,5 @@ GROUP BY
     p.NombreProducto
 ORDER BY
     TotalEnviosPendientes DESC;
+
+--* top 5 de envios o entregas con estado pendiente (guiarse en los costos)
