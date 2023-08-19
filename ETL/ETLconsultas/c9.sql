@@ -1,5 +1,6 @@
 -- !Total de Entregas por mes
-
+USE [Practica1ETL]
+GO
 SELECT
     t.Mes AS Mes,
     COUNT(d.EntregaID) AS Total_Entregas

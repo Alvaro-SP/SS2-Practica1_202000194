@@ -1,0 +1,11 @@
+Changed database context to 'practica1ETL'.
+Changed database context to 'practica1ETL'.
+NombreCliente                                      TotalEntregas
+-------------------------------------------------- -------------
+Ricardo Ríos                                                  4
+David Aguilar                                                  3
+Marina Ruiz                                                    3
+Natalia Reyes                                                  3
+Víctor Pérez                                                 3
+
+(5 rows affected)

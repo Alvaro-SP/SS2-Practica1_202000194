@@ -1,0 +1,12 @@
+Changed database context to 'practica1ETL'.
+Nombre_de_Tabla COUNT      
+--------------- -----------
+Delivery                517
+Product                 517
+City                     51
+Catalog                   5
+Time                    259
+Client                  517
+Empoy                   517
+
+(7 rows affected)

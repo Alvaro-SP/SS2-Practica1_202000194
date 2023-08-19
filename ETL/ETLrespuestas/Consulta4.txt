@@ -1,0 +1,10 @@
+Changed database context to 'practica1ETL'.
+Ciudad                                             TotalEntregas
+-------------------------------------------------- -------------
+San Marcos                                                    16
+Barberena                                                     15
+Petapa                                                        14
+Retalhuleu                                                    14
+San Juan Sacatepéquez                                        14
+
+(5 rows affected)

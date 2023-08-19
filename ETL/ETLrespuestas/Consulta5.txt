@@ -1,0 +1,10 @@
+Changed database context to 'practica1ETL'.
+NombreProducto                                     TotalEnviosPendientes
+-------------------------------------------------- ---------------------
+ Caja de mercancía                                                    4
+ Bulto pesado                                                          4
+ Envío express                                                        4
+ Paquete grande                                                        4
+ Sobre pequeño                                                        4
+
+(5 rows affected)

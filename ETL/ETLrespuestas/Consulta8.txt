@@ -1,0 +1,12 @@
+Changed database context to 'practica1ETL'.
+Dia_Semana                                         Total_Entregas
+-------------------------------------------------- --------------
+Martes                                                         79
+Miércoles                                                     79
+Sábado                                                        79
+Lunes                                                          75
+Jueves                                                         74
+Domingo                                                        72
+Viernes                                                        59
+
+(7 rows affected)

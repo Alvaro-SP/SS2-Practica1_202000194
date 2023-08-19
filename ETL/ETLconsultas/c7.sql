@@ -1,5 +1,6 @@
 --! Total de entregas realizadas por ciudad.
-
+USE [Practica1ETL]
+GO
 SELECT
     c.ciudadEntrega AS Ciudad,
     COUNT(d.EntregaID) AS Total_Entregas

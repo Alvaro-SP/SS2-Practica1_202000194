@@ -1,0 +1,3 @@
+Changed database context to 'practica1ETL'.
+Msg 8120, Level 16, State 1, Server kali, Line 2
+Column 'Delivery.EntregaID' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.

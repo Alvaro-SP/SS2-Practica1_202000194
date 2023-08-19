@@ -1,5 +1,7 @@
 
 --! Top 5 de productos con el costo de envío más alto.
+USE [Practica1ETL]
+GO
 SELECT TOP 5
     p.NombreProducto,
     d.CostoEnvio

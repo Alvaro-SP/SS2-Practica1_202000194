@@ -1,4 +1,6 @@
 --! SELECT COUNT(*) de todas las tablas para ver que si realizo la carga en las tablas del modelo.
+USE [Practica1ETL]
+GO
 SELECT
     'Delivery' AS Nombre_de_Tabla,
     COUNT(*) AS COUNT
@@ -18,11 +20,6 @@ SELECT
     'Catalog' AS Nombre_de_Tabla,
     COUNT(*) AS COUNT
 FROM Catalog
-UNION ALL
-SELECT
-    'TimeDeliver' AS Nombre_de_Tabla,
-    COUNT(*) AS COUNT
-FROM TimeDeliver
 UNION ALL
 SELECT
     'Time' AS Nombre_de_Tabla,

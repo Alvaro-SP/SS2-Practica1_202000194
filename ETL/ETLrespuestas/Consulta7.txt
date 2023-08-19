@@ -1,0 +1,56 @@
+Changed database context to 'practica1ETL'.
+Ciudad                                             Total_Entregas
+-------------------------------------------------- --------------
+San Marcos                                                     16
+Barberena                                                      15
+Petapa                                                         14
+Retalhuleu                                                     14
+San Juan Sacatepéquez                                         14
+San Lucas Sacatepéquez                                        14
+Sanarate                                                       14
+Sumpango                                                       14
+San Benito                                                     13
+Mazatenango                                                    13
+Antigua Guatemala                                              13
+Jacaltenango                                                   13
+Amatitlán                                                     12
+Patzún                                                        12
+San José Pinula                                               12
+Villa Nueva                                                    11
+Palín                                                         11
+Jalapa                                                         11
+Jocotenango                                                    10
+Jutiapa                                                        10
+La Gomera                                                      10
+Cobán                                                         10
+Chiquimula                                                     10
+Patulul                                                        10
+Nebaj                                                          10
+Guatemala City                                                 10
+Quetzaltenango                                                 10
+Villa Canales                                                  10
+San Pedro Sacatepéquez                                        10
+San Pablo Jocopilas                                            10
+Sololá                                                         9
+Puerto Barrios                                                  9
+Asunción Mita                                                  9
+Cantel                                                          9
+Chicacao                                                        9
+Chimaltenango                                                   9
+Coatepeque                                                      9
+Malacatán                                                      9
+Escuintla                                                       8
+Ciudad Vieja                                                    8
+San Cristóbal Verapaz                                          8
+San Francisco El Alto                                           8
+Huehuetenango                                                   8
+Mixco                                                           8
+Totonicapán                                                    7
+San Pedro Ayampuc                                               7
+Santa Catarina Pinula                                           7
+Santa Cruz del Quiché                                          5
+Santa Lucía Cotzumalguapa                                      5
+Nahualá                                                        5
+Ostuncalco                                                      5
+
+(51 rows affected)

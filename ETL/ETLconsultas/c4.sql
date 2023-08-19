@@ -1,4 +1,6 @@
 -- ! Top 5 de ciudades con más entregas
+USE [Practica1ETL]
+GO
 SELECT TOP 5
     c.ciudadEntrega AS Ciudad,
     COUNT(d.EntregaID) AS TotalEntregas

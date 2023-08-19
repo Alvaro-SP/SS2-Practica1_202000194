@@ -1,0 +1,10 @@
+Changed database context to 'practica1ETL'.
+NombreProducto                                     CostoEnvio    
+-------------------------------------------------- --------------
+ Envío de productos de limpieza                        49.950001
+ Envío de productos médicos                               49.93
+ Envío a domicilio                                         49.91
+ Carga industrial                                       49.889999
+ Envío de muestras                                     49.880001
+
+(5 rows affected)

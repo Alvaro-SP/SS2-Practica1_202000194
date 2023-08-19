@@ -1,4 +1,6 @@
 --! Top 5 de envíos con estado Pendiente
+USE [Practica1ETL]
+GO
 SELECT TOP 5
     p.NombreProducto,
     COUNT(d.ProductID) AS TotalEnviosPendientes

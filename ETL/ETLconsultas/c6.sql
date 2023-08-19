@@ -1,5 +1,6 @@
 -- !  Top 5 de envíos con estado Entregado
-
+USE [Practica1ETL]
+GO
 SELECT TOP 5
     d.EntregaID,
     p.NombreProducto,

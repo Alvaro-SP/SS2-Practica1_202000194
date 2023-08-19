@@ -1,0 +1,17 @@
+Changed database context to 'practica1ETL'.
+Mes                                                Total_Entregas
+-------------------------------------------------- --------------
+Diciembre                                                      59
+Junio                                                          50
+Febrero                                                        50
+Septiembre                                                     49
+Marzo                                                          43
+Enero                                                          42
+Mayo                                                           41
+Octubre                                                        41
+Noviembre                                                      40
+Abril                                                          38
+Julio                                                          36
+Agosto                                                         28
+
+(12 rows affected)

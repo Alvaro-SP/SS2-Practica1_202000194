@@ -1,0 +1,9 @@
+Changed database context to 'practica1ETL'.
+Anio        Total_Entregas
+----------- --------------
+       2020            141
+       2022            138
+       2023            123
+       2021            115
+
+(4 rows affected)
